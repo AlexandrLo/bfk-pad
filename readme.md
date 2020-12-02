@@ -1,6 +1,6 @@
-# bfk_pad
+# BFK Pad
 
-![bfk_pad](imgur.com image replace me!)
+<img src="https://i.imgur.com/Qh8hMOm.png" data-canonical-src="https://i.imgur.com/Qh8hMOm.png" width="300" />
 
 A short description of the keyboard/project
 
