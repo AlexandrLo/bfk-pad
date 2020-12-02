@@ -4,9 +4,9 @@
 
 A short description of the keyboard/project
 
-* Keyboard Maintainer: [StanleyBublick](https://github.com/yourusername)
-* Hardware Supported: The PCBs, controllers supported
-* Hardware Availability: Links to where you can find this hardware
+* Keyboard Maintainer: [AlexandrLo](https://github.com/AlexandrLo)
+* Hardware Supported: BFK Pad V1
+* Hardware Availability: Unavailable
 
 Make example for this keyboard (after setting up your build environment):
 
