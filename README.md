@@ -1,7 +1,8 @@
 # BFK Pad
 
 <img src="https://github.com/AlexandrLo/bfk-pad/blob/master/images/1.png?raw=true" width="400" align="right" />
-[<img src="https://qmk.fm/assets/images/badge-small-dark.svg" width="200" align="right" />](https://qmk.fm/)
+
+<img src="https://qmk.fm/assets/images/badge-small-dark.svg" width="200" align="right" />
 
 A short description of the keyboard/project
 
