@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+<CAMsetup>
+	<thisfile>C:\ZBugs\ISAVGA.camset</thisfile>
+	<morelayertypes>
+	</morelayertypes>
+	<usecolors>
+		<mixer>0.000</mixer>
+		<object type="Plated H. In">00BFBFBF</object>
+		<object type="Plated H. Out">0026120F</object>
+		<object type="Edge In">008C8C09</object>
+		<object type="Edge Out">00809854</object>
+		<object type="Volume">BC7D8C59</object>
+		<object type="Background">00898989</object>
+		<layer type="PasteMask">008080C0</layer>
+		<layer type="Silkscreen">00E3E3E3</layer>
+		<layer type="SolderMask">900B2B06</layer>
+		<layer type="Copper">00765223</layer>
+		<layer type="Core">00000000</layer>
+		<layer type="Prepreg">00000000</layer>
+		<layer type="BoardOutline">00000000</layer>
+	</usecolors>
+	<boardlayers>
+		<layer type="Silkscreen" H="35" Er="0.000" color="00CBFFD4">
+			<filename>C:\ZBugs\ISAVGA\isa_svga-F.SilkS.gto</filename>
+			<filedisp>isa_svga-F.SilkS.gto</filedisp>
+		</layer>
+		<layer type="SolderMask" H="35" Er="0.000" color="00001700">
+			<filename>C:\ZBugs\ISAVGA\isa_svga-F.Mask.gts</filename>
+			<filedisp>isa_svga-F.Mask.gts</filedisp>
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="00800000">
+			<filename>C:\ZBugs\ISAVGA\isa_svga-Front.gtl</filename>
+			<filedisp>isa_svga-Front.gtl</filedisp>
+		</layer>
+		<layer type="Prepreg" H="1390" Er="4.800">
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="000000D0">
+			<filename>C:\ZBugs\ISAVGA\isa_svga-Back.gbl</filename>
+			<filedisp>isa_svga-Back.gbl</filedisp>
+		</layer>
+		<layer type="SolderMask" H="35" Er="0.000" color="00000C1E">
+			<filename>C:\ZBugs\ISAVGA\isa_svga-B.Mask.gbs</filename>
+			<filedisp>isa_svga-B.Mask.gbs</filedisp>
+		</layer>
+		<layer type="Silkscreen" H="35" Er="0.000" color="00CAD2F6">
+			<filename>C:\ZBugs\ISAVGA\isa_svga-B.SilkS.gbo</filename>
+			<filedisp>isa_svga-B.SilkS.gbo</filedisp>
+		</layer>
+		<layer type="BoardOutline" H="1600">
+			<filename>C:\ZBugs\ISAVGA\isa_svga-Edge.Cuts.gm1</filename>
+			<filedisp>isa_svga-Edge.Cuts.gm1</filedisp>
+		</layer>
+	</boardlayers>
+
+	<boarddrillplates>
+		<drillplate from="top" to="btm" plated="yes">
+			<filename>C:\ZBugs\ISAVGA\isa_svga.drl</filename>
+			<filedisp>isa_svga.drl</filedisp>
+		</drillplate>
+	</boarddrillplates>
+
+	<ipc356>
+		<filename>C:\ZBugs\ISAVGA\isa_svga.d356</filename>
+		<filedisp>isa_svga.d356</filedisp>
+	</ipc356>
+
+	<bom>
+		<filename>C:\ZBugs\ISAVGA\isa_svga.bom.csv</filename>
+		<filedisp>isa_svga.bom.csv</filedisp>
+	</bom>
+
+	<GerberSetup Incremental='no' OmitTrailingZeros='no' Milimeters='no' Len1='2' Len2='3'/>
+	<NCDSetup Guess='yes' Incremental='no' OmitTrailingZeros='no' Units='DefaultInch' Len1='2' Len2='3' Autooffset='yes'/>
+	<IPC356Setup AutoUnits='1' AutoMagnitude='1' LongPinID='yes' CpyFromDrill='yes' Autooffset='yes'/>
+	<BoardOutlineDrawing srctype='1' trackwidthMin='0.004' trackwidthSlopStart='0.01' trackwidthMetaTrsh='0.012'/>
+	<IdentifyOutline mode='3' removeoutside='no' horizMargin='1' vertMargin='1' brushBlob='1' />
+	<PosSaveRestoreTab>
+	</PosSaveRestoreTab>
+
+	<NetList DefaultColor="hash">
+	</NetList>
+
+	<ComponentList>
+		<c RefID="BUS1" model=""/>
+		<c RefID="C1" side="top" model="4;2T;Capacitor;Squircle; n:8;fLen:4.5;fWid:2;fHght:3.5;fPitch:2.54;color:F8DE33;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C2" side="top" model="4;2T;Capacitor;Squircle; n:8;fLen:4.5;fWid:2;fHght:3.5;fPitch:2.54;color:F8DE33;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C3" side="top" model="4;2T;Capacitor;Squircle; n:8;fLen:4.5;fWid:2;fHght:3.5;fPitch:2.54;color:F8DE33;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C4" side="top" model="4;2T;Capacitor;Squircle; n:8;fLen:4.5;fWid:2;fHght:3.5;fPitch:2.54;color:F8DE33;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C5" side="top" model="4;2T;Capacitor;Squircle; n:8;fLen:4.5;fWid:2;fHght:3.5;fPitch:2.54;color:F8DE33;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C6" side="top" model="4;2T;Capacitor;Squircle; n:8;fLen:4.5;fWid:2;fHght:3.5;fPitch:2.54;color:F8DE33;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C7" side="top" model="4;2T;Capacitor;Squircle; n:8;fLen:4.5;fWid:2;fHght:3.5;fPitch:2.54;color:F8DE33;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C8" side="top" model="4;2T;Capacitor;Squircle; n:8;fLen:4.5;fWid:2;fHght:3.5;fPitch:2.54;color:F8DE33;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C9" side="top" model="4;2T;Capacitor;Squircle; n:8;fLen:4.5;fWid:2;fHght:3.5;fPitch:2.54;color:F8DE33;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C10" side="top" model="4;2T;Capacitor;Squircle; n:8;fLen:4.5;fWid:2;fHght:3.5;fPitch:2.54;color:F8DE33;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C11" side="top" model="4;2T;Capacitor;Squircle; n:8;fLen:4.5;fWid:2;fHght:3.5;fPitch:2.54;color:F8DE33;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C12" side="top" model="4;2T;Capacitor;Squircle; n:8;fLen:4.5;fWid:2;fHght:3.5;fPitch:2.54;color:F8DE33;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C13" side="top" model="4;2T;El-Cap;Ovoid; n:7;fDiam:6;fHght:9;fPitch:2.7;color:EFA318;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C14" side="top" model="4;2T;El-Cap;Ovoid; n:7;fDiam:6;fHght:9;fPitch:2.7;color:EFA318;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C15" side="top" model="4;2T;El-Cap;Ovoid; n:7;fDiam:6;fHght:9;fPitch:2.7;color:EFA318;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C16" side="top" model="4;2T;El-Cap;Ovoid; n:7;fDiam:6;fHght:9;fPitch:2.7;color:EFA318;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C17" side="top" model="4;2T;Capacitor;Disk; n:6;fDiam:4.5;fThick:1;color:DA932E;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C18" side="top" model="4;2T;Capacitor;Disk; n:6;fDiam:4.5;fThick:1;color:DA932E;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C19" side="top" model="4;2T;Capacitor;Disk; n:6;fDiam:4.5;fThick:1;color:DA932E;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C20" side="top" model="4;2T;Capacitor;Disk; n:6;fDiam:4;fThick:0.8;color:DAB620;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C21" side="top" model="4;2T;Capacitor;Disk; n:6;fDiam:4;fThick:0.8;color:DAB620;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C22" side="top" model="4;2T;Capacitor;Disk; n:6;fDiam:4;fThick:0.8;color:DAB620;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C23" side="top" model="4;2T;Capacitor;Disk; n:6;fDiam:4;fThick:0.8;color:DAB620;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C24" side="top" model="4;2T;Capacitor;Disk; n:6;fDiam:4;fThick:0.8;color:DAB620;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C25" side="top" model="4;2T;Capacitor;Disk; n:6;fDiam:4;fThick:0.8;color:DAB620;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C26" side="top" model="4;2T;Capacitor;Disk; n:6;fDiam:4;fThick:0.8;color:DAB620;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C27" side="top" model="4;2T;Capacitor;Disk; n:6;fDiam:4;fThick:0.8;color:DAB620;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="FB1" side="top" model="4;2T;Inductor;Axial; n:6;fDiam:3.34;fLen:7.8;color:303030;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="FB2" side="top" model="4;2T;Inductor;Axial; n:6;fDiam:3.34;fLen:7.8;color:303030;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="FB3" side="top" model="4;2T;Inductor;Axial; n:6;fDiam:3.34;fLen:7.8;color:303030;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="FB4" side="top" model="4;2T;Inductor;Axial; n:6;fDiam:3.34;fLen:7.8;color:303030;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="FB5" side="top" model="4;2T;Inductor;Axial; n:6;fDiam:3.34;fLen:7.8;color:303030;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="FB6" side="top" model="4;2T;Inductor;Axial; n:6;fDiam:3.34;fLen:7.8;color:303030;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="JP1" side="top" model="4;2T;Conn/Header;Header Vert; n:9;fHght:7;fHoldH:2.4;fHoldW:2.54;fBaseH:0.1;color:404040;fPinBL:3;bRndPin:0;fPinWid:0.64;colPin:FFD700"/>
+		<c RefID="L1" side="top" model="4;2T;Inductor;Axial; n:6;fDiam:3.34;fLen:6.53;color:303030;fPinBL:2.1;fPinD:0.55;colPin:E4E4E4"/>
+		<c RefID="L2" side="top" model="4;2T;Inductor;Axial; n:6;fDiam:3.34;fLen:6.53;color:303030;fPinBL:2.1;fPinD:0.691;colPin:E4E4E4"/>
+		<c RefID="L3" side="top" model="4;2T;Inductor;Axial; n:6;fDiam:3.34;fLen:6.53;color:303030;fPinBL:2.1;fPinD:0.55;colPin:E4E4E4"/>
+		<c RefID="P1" side="top" usebb="yes" model="2;MT">
+body
+CUBE,fpx:0,fpy:14,arot:0.0,fsx:16.33,fsy:5.9,fsz:7.9,fh0:2.4,frh:0.4,frv:0.1,frl:2,col:DEDEDE
+CUBE,fpx:0,fpy:2.5,arot:0.0,fsx:17,fsy:15,fsz:10.6,fh0:2,frh:0.4,frv:0.1,frl:1,col:404040
+CUBE,fpx:0,fpy:10,arot:0.0,fsx:30.8,fsy:1.5,fsz:12.6,fh0:0.1,frh:0.1,frv:0.1,frl:0.1,col:404040
+CUBE,fpx:0,fpy:11,arot:0.0,fsx:30.8,fsy:0.5,fsz:12.6,fh0:0.1,frh:0.1,frv:0.1,frl:0.1,col:DEDEDE
+CUBE,fpx:0,fpy:2.5,arot:0.0,fsx:30.8,fsy:15,fsz:2,fh0:0.15,frh:0.1,frv:0.1,frl:0.1,col:404040
+HCYL,fpx:12.4,fpy:12,arot:90.0,frad:1.75,flen:7,fh0:4.6,fer:0.1,fgdist:0.2,fgwid:0.2,fgslox:0.2,fgsloy:0.2,col:DEDEDE
+HCYL,fpx:-12.4,fpy:12,arot:90.0,frad:1.75,flen:7,fh0:4.6,fer:0.1,fgdist:0.2,fgwid:0.2,fgslox:0.2,fgsloy:0.2,col:DEDEDE
+*</c>
+		<c RefID="R1" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:7ACBE6;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="R2" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:7ACBE6;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="R3" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:7ACBE6;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="R4" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:7ACBE6;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="R5" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:7ACBE6;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="R6" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:7ACBE6;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="R7" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:7ACBE6;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="R8" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:7ACBE6;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="R9" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:206020;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="R10" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:206020;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="R11" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:206020;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="R12" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:206020;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="R13" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:206020;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="R14" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:206020;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="R15" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:206020;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="R16" side="top" model="4;2T;Resistor;Axial; n:6;fDiam:2.6;fLen:5.5;color:206020;fPinBL:2.1;fPinD:0.4;colPin:E4E4E4"/>
+		<c RefID="U1" model="5;MS;#1;Gull-Wing;LQFP160"/>
+		<c RefID="U2" side="top" model="4;MT;#5;DIP600; n:1;color:404040"/>
+		<c RefID="U3" side="top" model="4;MT;#5;DIP300; n:1;color:404040"/>
+		<c RefID="U4" side="top" model="4;MT;#5;DIP300; n:1;color:404040"/>
+		<c RefID="U5" side="top" model="4;MT;#5;DIP300; n:1;color:404040"/>
+		<c RefID="U6" side="top" model="4;MT;#5;DIP300; n:1;color:404040"/>
+		<c RefID="X1" side="top" model="4;2T;Crystal;HC-49; n:3;fHght:3.5;fPinBL:2.1;fPinD:0.5"/>
+	</ComponentList>
+</CAMsetup>

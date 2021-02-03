@@ -1,0 +1,985 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+<CAMsetup>
+	<thisfile>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\pcicard.camset</thisfile>
+	<morelayertypes>
+	</morelayertypes>
+	<usecolors>
+		<mixer>0.000</mixer>
+		<object type="Plated H. In">00BFBFBF</object>
+		<object type="Plated H. Out">0026120F</object>
+		<object type="Edge In">008C8C09</object>
+		<object type="Edge Out">00809854</object>
+		<object type="Volume">9E7D8C59</object>
+		<object type="Background">00898989</object>
+		<layer type="PasteMask">008080C0</layer>
+		<layer type="Silkscreen">00E3E3E3</layer>
+		<layer type="SolderMask">900B2B06</layer>
+		<layer type="Copper">00765223</layer>
+		<layer type="Core">00000000</layer>
+		<layer type="Prepreg">00000000</layer>
+		<layer type="BoardOutline">00000000</layer>
+	</usecolors>
+	<boardlayers>
+		<layer type="Silkscreen" H="35" Er="0.000" color="00CBFFD4">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\CAM for pcicard\pcicard.GTO</filename>
+			<filedisp>pcicard.GTO</filedisp>
+		</layer>
+		<layer type="SolderMask" H="35" Er="0.000" color="00001700">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\CAM for pcicard\pcicard.GTS</filename>
+			<filedisp>pcicard.GTS</filedisp>
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="00800000">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\CAM for pcicard\pcicard.GTL</filename>
+			<filedisp>pcicard.GTL</filedisp>
+		</layer>
+		<layer type="Prepreg" H="417" Er="4.800">
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultNegative" color="004E7D9A">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\CAM for pcicard\pcicard.GP1</filename>
+			<filedisp>pcicard.GP1</filedisp>
+		</layer>
+		<layer type="Prepreg" H="417" Er="4.800">
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultNegative" color="00AE7AB8">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\CAM for pcicard\pcicard.GP2</filename>
+			<filedisp>pcicard.GP2</filedisp>
+		</layer>
+		<layer type="Prepreg" H="417" Er="4.800">
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="000000D0">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\CAM for pcicard\pcicard.GBL</filename>
+			<filedisp>pcicard.GBL</filedisp>
+		</layer>
+		<layer type="SolderMask" H="35" Er="0.000" color="0000420A">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\CAM for pcicard\pcicard.GBS</filename>
+			<filedisp>pcicard.GBS</filedisp>
+		</layer>
+		<layer type="Silkscreen" H="35" Er="0.000" color="00C9C7E1">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\CAM for pcicard\pcicard.GBO</filename>
+			<filedisp>pcicard.GBO</filedisp>
+		</layer>
+		<layer type="BoardOutline" H="1531">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\CAM for pcicard\pcicard.GKO</filename>
+			<filedisp>pcicard.GKO</filedisp>
+		</layer>
+	</boardlayers>
+
+	<boarddrillplates>
+		<drillplate from="top" to="btm" plated="yes" filled="no" microvia="no">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\CAM for pcicard\pcicard.TXT</filename>
+			<filedisp>pcicard.TXT</filedisp>
+		</drillplate>
+	</boarddrillplates>
+
+	<ipc356>
+		<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\CAM for pcicard\Testpoint Report for pcicard.ipc</filename>
+		<filedisp>Testpoint Report for pcicard.ipc</filedisp>
+	</ipc356>
+
+	<bom>
+		<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\CAM for pcicard\BOM for pcicard.csv</filename>
+		<filedisp>BOM for pcicard.csv</filedisp>
+	</bom>
+
+	<GerberSetup Incremental='no' OmitTrailingZeros='no' Milimeters='no' Len1='2' Len2='3'/>
+	<NCDSetup Guess='yes' Incremental='no' OmitTrailingZeros='no' Units='DefaultInch' Len1='2' Len2='3' Autooffset='yes'/>
+	<IPC356Setup AutoUnits='1' AutoMagnitude='1' LongPinID='yes' CpyFromDrill='yes' Autooffset='yes' AutoBtmAcc='yes'/>
+	<BoardOutlineDrawing srctype='1' trackwidthMin='0.004' trackwidthSlopStart='0.01' trackwidthMetaTrsh='0.012'/>
+	<IdentifyOutline mode='2' removeoutside='yes' horizMargin='5' vertMargin='2.5' brushBlob='1' />
+	<PosSaveRestoreTab>
+		<entry idx='1' pos='-41.1256, -13.2513, -29.1484' rot='-0.468844, 0.256834, -0.406027, 0.741191'/>
+		<entry idx='2' pos='243.0308, 345.1474, -8.7014' rot='-0.472118, 0.113002, -0.203500, 0.850249'/>
+		<entry idx='3' pos='278.6378, 350.3644, -0.2550' rot='-0.500000, -0.500000, 0.500000, 0.500000'/>
+		<entry idx='4' pos='278.6378, 350.3644, -0.2550' rot='-0.500000, -0.500000, 0.500000, 0.500000'/>
+		<entry idx='5' pos='278.6378, 350.3644, -0.2550' rot='-0.500000, -0.500000, 0.500000, 0.500000'/>
+	</PosSaveRestoreTab>
+
+	<NetList DefaultColor="hash">
+	</NetList>
+	<ComponentList>
+		<c RefID="B1" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B2" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B3" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B4" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B5" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B6" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B7" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B8" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B9" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B10" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B16" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B17" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B18" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B19" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B20" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B21" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B22" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B23" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B24" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B25" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B26" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B27" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B28" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B29" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B30" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B31" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B32" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B33" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B34" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B35" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B36" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B37" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B38" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B39" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B40" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B41" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B42" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B43" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B44" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B45" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B46" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B47" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B48" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B49" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B50" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B51" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B52" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B53" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B54" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B55" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B56" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B57" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B58" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B59" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B60" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B61" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B62" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B63" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B64" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B65" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B66" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B67" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B68" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B69" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B100" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B101" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B102" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B103" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B104" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B105" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B106" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B107" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B108" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B109" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B110" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B111" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B112" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B113" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B114" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B115" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B200" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B201" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B202" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B203" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B204" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B205" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B206" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B207" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B208" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B209" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B210" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B211" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B212" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B213" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B214" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B215" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B216" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B217" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B218" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B219" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B220" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B221" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B222" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B223" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B224" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B225" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B226" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B227" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B228" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="B229" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C1" side="top" model="4;2T;El-Cap;Axial; n:6;fDiam:8.31;fLen:23.7;color:6060F0;fPinBL:2.1;fPinD:0.952;colPin:E4E4E4"/>
+		<c RefID="C2" side="top" model="4;2T;El-Cap;Axial; n:6;fDiam:8.31;fLen:23.7;color:6060F0;fPinBL:2.1;fPinD:0.952;colPin:E4E4E4"/>
+		<c RefID="C3" model="4;2S;Capacitor;1812; n:2;fHght:3.2;color:906020"/>
+		<c RefID="C4" model="4;2S;Capacitor;Extruded"/>
+		<c RefID="C5" model="4;2S;Capacitor;Extruded"/>
+		<c RefID="C6" model="4;2S;Capacitor;1812; n:2;fHght:3.2;color:906020"/>
+		<c RefID="C9" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C10" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C11" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C12" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C100" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C101" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C102" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C103" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C104" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C105" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C106" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C107" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C108" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C109" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C110" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C111" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C112" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C113" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C114" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C116" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C117" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C118" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C119" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C120" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C121" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C122" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C125" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C126" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C127" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C128" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C129" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C130" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C131" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C134" model="4;2S;Capacitor;0805; n:2;fHght:1.25;color:906020"/>
+		<c RefID="C135" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C136" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C137" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C138" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C139" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C140" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C200" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C201" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C202" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C203" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C204" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C205" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C206" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C207" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C208" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C209" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C210" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C211" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C212" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C213" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C214" model="4;2S;Capacitor;0805; n:2;fHght:1.25;color:906020"/>
+		<c RefID="C215" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C216" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C217" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C218" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C219" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C220" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C221" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C222" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C223" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C224" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C225" model="4;2S;Capacitor;0805; n:2;fHght:1.25;color:906020"/>
+		<c RefID="C226" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C227" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C228" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C229" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C230" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C231" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C232" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C233" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C234" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C235" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C236" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C237" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C300" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C301" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C302" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C303" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C400" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C401" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:7.5;fHght:7.12;fPitch:3.56;color:604040;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C402a" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C402b" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C402c" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C402d" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C403" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C406" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C407" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:5.5;fHght:5.08;fPitch:2.54;color:6060D0;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C408" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:5.5;fHght:5.08;fPitch:2.54;color:6060D0;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C409" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:5.5;fHght:5.08;fPitch:2.54;color:6060D0;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C410" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:5.5;fHght:5.08;fPitch:2.54;color:6060D0;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C411" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C412" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:5.5;fHght:5.08;fPitch:2.54;color:6060D0;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C413" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C414" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:5.5;fHght:5.08;fPitch:2.54;color:6060D0;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C415" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C416" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:5.5;fHght:5.08;fPitch:2.54;color:6060D0;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C417" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C418" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:5.5;fHght:5.08;fPitch:2.54;color:6060D0;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C419" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C420" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C421" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C422" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C423" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C424" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C425" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C426" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C427" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C428" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C429" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C430" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C431" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C432" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C433" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C434" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C435" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C436" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C437" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C438" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C439" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C440" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C441" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C442" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C443" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C445" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C446" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:5.5;fHght:5.08;fPitch:2.54;color:6060D0;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C447" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C450" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C451" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C452" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:7.5;fHght:7.12;fPitch:3.56;color:604040;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C453" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:7.5;fHght:7.12;fPitch:3.56;color:604040;fPinBL:2.1;fPinD:0.5;colPin:E4E4E4"/>
+		<c RefID="C454" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C455" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C456" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C457" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C458" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C459" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C500" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C510" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C511" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C512" model="4;2S;Capacitor;1206; n:2;fHght:1.6;color:906020"/>
+		<c RefID="C513" model="4;2S;Capacitor;1206; n:2;fHght:1.6;color:906020"/>
+		<c RefID="C514" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C515" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C516" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C517" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C518" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C519" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C520" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C521" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C522" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C523" side="top" model="4;2T;Capacitor;Radial; n:8;fLen:6.5;fWid:6.5;fHght:8;fPitch:5.08;color:FF7030;fPinBL:2.1;fPinD:0.604;colPin:E4E4E4"/>
+		<c RefID="C524" model="4;2S;Capacitor;1206; n:2;fHght:1.6;color:906020"/>
+		<c RefID="C525" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C526" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C527" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C528" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C529" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C530" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C531" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C532" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C533" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C534" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C535" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C536" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C537" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C538" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C539" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C540" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C541" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C542" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C543" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C544" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C545" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C600" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C601" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C602" model="4;2S;El-Cap;3216-12; n:2;fHght:1.2;color:FFE14F"/>
+		<c RefID="C603" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C604" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C605" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C606" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C607" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C608" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C609" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C610" model="4;2S;El-Cap;6032-20; n:2;fHght:2;color:FFE14F"/>
+		<c RefID="C611" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C612" model="4;2S;Capacitor;0603; n:2;fHght:0.8;color:906020"/>
+		<c RefID="C613" model="4;2S;Capacitor;1812; n:2;fHght:3.2;color:906020"/>
+		<c RefID="CN2" side="top" usebb="yes" model="2;MT">
+body
+CUBE,fpx:0,fpy:2,arot:0.0,fsx:14.5,fsy:17,fsz:12,fh0:0.5,frh:0.05,frv:0.05,frl:0.6,col:FFFFFF
+*</c>
+		<c RefID="CN3" side="top" usebb="yes" model="2;MT">
+body
+CUBE,fpx:0,fpy:2,arot:0.0,fsx:14.5,fsy:17,fsz:12,fh0:0.5,frh:0.05,frv:0.05,frl:0.6,col:FFFFFF
+*</c>
+		<c RefID="CN4" model="2;MS"/>
+		<c RefID="CN5" side="top" Hide="yes" model="2;1T"/>
+		<c RefID="CN100" side="top" model="4;MT;#8;Header 90; n:11;bLeft:1;bFlip:0;fLen:6;fHght:3.5;fHoldH:2.4;fHoldW:5.08;color:404040;fPinBL:3;bRndPin:0;fPinWid:0.64;colPin:FFD700"/>
+		<c RefID="CN300" model=""/>
+		<c RefID="D1" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D100" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="D101" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="D102" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D103" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D104" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D105" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D106" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="D107" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="D200" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D201" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D202" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D203" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D204" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D205" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D206" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D207" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D208" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D209" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="D210" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="D211" model="4;2S;Diode;SMB; n:2;fHght:2.2;color:383840"/>
+		<c RefID="D212" model="4;2S;Diode;SMB; n:2;fHght:2.2;color:383840"/>
+		<c RefID="D213" model="4;2S;Diode;SMB; n:2;fHght:2.2;color:383840"/>
+		<c RefID="D400" model="4;2S;Diode;SMA; n:2;fHght:2;color:383840"/>
+		<c RefID="D401" model="4;2S;Diode;SMA; n:2;fHght:2;color:383840"/>
+		<c RefID="D402" model="4;2S;Diode;SMB; n:2;fHght:2.2;color:383840"/>
+		<c RefID="D403" model="4;2S;Diode;SMB; n:2;fHght:2.2;color:383840"/>
+		<c RefID="D404" model="4;2S;Diode;SMB; n:2;fHght:2.2;color:383840"/>
+		<c RefID="D405" model="4;2S;Diode;SMB; n:2;fHght:2.2;color:383840"/>
+		<c RefID="D407" model="4;2S;Diode;SMA; n:2;fHght:2;color:383840"/>
+		<c RefID="D408" model="4;2S;Diode;SMA; n:2;fHght:2;color:383840"/>
+		<c RefID="D411" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D502" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D503" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D504" model="4;2S;Diode;SMB; n:2;fHght:2.2;color:383840"/>
+		<c RefID="D505" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D506" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D507" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="D600" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D601" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="D602" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D603" model="4;2S;Diode;SMA; n:2;fHght:2;color:383840"/>
+		<c RefID="D604" model="4;3S;#1;SOT323; n:1;color:404040"/>
+		<c RefID="D605" model="4;2S;Diode;SMA; n:2;fHght:2;color:383840"/>
+		<c RefID="F1" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:8;fHght:8;fPitch:5.08;color:404040;fPinBL:2.1;fPinD:0.756;colPin:E4E4E4"/>
+		<c RefID="F2" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:8;fHght:8;fPitch:5.08;color:404040;fPinBL:2.1;fPinD:0.756;colPin:E4E4E4"/>
+		<c RefID="F3" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:8;fHght:8;fPitch:5.08;color:404040;fPinBL:2.1;fPinD:0.756;colPin:E4E4E4"/>
+		<c RefID="F4" side="top" model="4;2T;El-Cap;Radial; n:7;fDiam:8;fHght:8;fPitch:5.08;color:404040;fPinBL:2.1;fPinD:0.756;colPin:E4E4E4"/>
+		<c RefID="L1" model="4;2S;Inductor;3528-21; n:2;fHght:1.9;color:303030"/>
+		<c RefID="L100" model="4;2S;Inductor;3528-21; n:2;fHght:1.9;color:303030"/>
+		<c RefID="L200" model="4;2S;Inductor;3528-21; n:2;fHght:1.9;color:303030"/>
+		<c RefID="L201" model="4;2S;Inductor;3528-21; n:2;fHght:1.9;color:303030"/>
+		<c RefID="L399" side="top" model="4;2T;Inductor;Axial; n:6;fDiam:4.79;fLen:11.5;color:303030;fPinBL:2.1;fPinD:0.756;colPin:E4E4E4"/>
+		<c RefID="L400" model="4;2S;Inductor;1210; n:2;fHght:2.03;color:303030"/>
+		<c RefID="L401" model="4;2S;Inductor;1210; n:2;fHght:2.03;color:303030"/>
+		<c RefID="L402" model="4;2S;Inductor;1210; n:2;fHght:2.03;color:303030"/>
+		<c RefID="L403" model="4;2S;Inductor;1210; n:2;fHght:2.03;color:303030"/>
+		<c RefID="L404" model="4;2S;Inductor;1210; n:2;fHght:2.03;color:303030"/>
+		<c RefID="L405" model="4;2S;Inductor;1210; n:2;fHght:2.03;color:303030"/>
+		<c RefID="L406" model="4;2S;Inductor;3528-21; n:2;fHght:1.9;color:303030"/>
+		<c RefID="L407" model="4;2S;Inductor;3528-21; n:2;fHght:1.9;color:303030"/>
+		<c RefID="L408" model="4;2S;Inductor;3528-21; n:2;fHght:1.9;color:303030"/>
+		<c RefID="L409" model="4;2S;Inductor;3528-21; n:2;fHght:1.9;color:303030"/>
+		<c RefID="L410" model="4;2S;Inductor;3528-21; n:2;fHght:1.9;color:303030"/>
+		<c RefID="L411" model="4;2S;Inductor;1210; n:2;fHght:2.03;color:303030"/>
+		<c RefID="L412" model="4;2S;Inductor;1210; n:2;fHght:2.03;color:303030"/>
+		<c RefID="L413" model="4;2S;Inductor;3528-21; n:2;fHght:1.9;color:303030"/>
+		<c RefID="L414" model="4;2S;Inductor;3528-21; n:2;fHght:1.9;color:303030"/>
+		<c RefID="L415" model="4;2S;Inductor;3528-21; n:2;fHght:1.9;color:303030"/>
+		<c RefID="L416" model="4;2S;Inductor;3528-21; n:2;fHght:1.9;color:303030"/>
+		<c RefID="L502" model="4;2S;Inductor;1812; n:2;fHght:2.56;color:303030"/>
+		<c RefID="L503" model="4;2S;Inductor;1812; n:2;fHght:2.56;color:303030"/>
+		<c RefID="L504" model="4;2S;Inductor;1812; n:2;fHght:2.56;color:303030"/>
+		<c RefID="L505" model="4;2S;Inductor;1812; n:2;fHght:2.56;color:303030"/>
+		<c RefID="L506" model="4;2S;Inductor;1812; n:2;fHght:2.56;color:303030"/>
+		<c RefID="L507" model="4;2S;Inductor;1812; n:2;fHght:2.56;color:303030"/>
+		<c RefID="L600" model="4;2S;Inductor;1812; n:2;fHght:2.56;color:303030"/>
+		<c RefID="L601" model="4;2S;Inductor;1812; n:2;fHght:2.56;color:303030"/>
+		<c RefID="NTC1" model="4;2S;Capacitor;0805; n:2;fHght:1.25;color:906020"/>
+		<c RefID="Q1" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q2" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q4" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q200" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q201" model="4;MS;#4;SOT223; n:1;color:404040"/>
+		<c RefID="Q202" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q203" model="4;MS;#4;SOT223; n:1;color:404040"/>
+		<c RefID="Q400" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="Q401" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="Q402" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="Q502" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q503" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q504" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q505" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q506" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q507" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q508" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q509" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q510" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q511" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q600" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q601" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q602" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q603" model="4;MS;#4;SOT223; n:1;color:404040"/>
+		<c RefID="Q604" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q605" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q607" side="top" model="4;MT;#1;TO-126; n:2;fHght:1;fPinBL:2.5"/>
+		<c RefID="Q608" model="4;3S;#1;SOT23; n:1;color:404040"/>
+		<c RefID="Q610" side="top" model="4;MT;#1;TO-126; n:2;fHght:1;fPinBL:2.5"/>
+		<c RefID="R1" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R2" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R3" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R4" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R5" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R6" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R7" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R9" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R10" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R11" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R12" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R13" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R14" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R15" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R16" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R17" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R18" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R19" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R20" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R21" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R22" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R23" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R24" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R25" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R26" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R27" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R30" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R31" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R32" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R33" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R34" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R35" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R36" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R37" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R38" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R40" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R41" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R60" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R61" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R63" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R64" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R65" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R67" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R100" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R101" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R102" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R107" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R108" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R109" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R110" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R111" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R112" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R113" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R114" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R115" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R117" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R118" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R119" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R120" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R121" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R122" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R123" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R124" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R125" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R126" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R127" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R128" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R129" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R130" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R133" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R134" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R135" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R136" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R137" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R138" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R139" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R140" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R141" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R142" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R143" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R144" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R145" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R146" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R147" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R148" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R149" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R150" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R151" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R152" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R153" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R154" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R155" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R156" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R157" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R158" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R159" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R160" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R200" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R201" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R202" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R203" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R204" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R205" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R206" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R207" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R208" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R209" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R210" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R211" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R212" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R213" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R214" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R215" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R216" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R217" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R218" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R219" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R220" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R221" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R222" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R223" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R224" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R225" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R226" model="4;2S;Resistor;1210; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R227" model="4;2S;Resistor;1210; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R228" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R229" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R230" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R231" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R232" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R233" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R234" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R235" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R236" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R237" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R238" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R239" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R240" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R241" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R242" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R243" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R244" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R245" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R246" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R247" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R248" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R249" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R250" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R251" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R252" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R253" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R254" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R255" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R256" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R257" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R258" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R259" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R260" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R261" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R262" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R263" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R264" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R268" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R269" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R301" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R302" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R303" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R304" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R305" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R306" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R307" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R308" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R309" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R310" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R311" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R313" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R321" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R322" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R323" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R324" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R325" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R326" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R349" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R352" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R400" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R401" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R402" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R403" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R404" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R405" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R406" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R407" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R408" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R409" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R410" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R411" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R412" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R413" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R415" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R416" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R417" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R418" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R420" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R421" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R422" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R423" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R500" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R501" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R502" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R503" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R504" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R514" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R515" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R516" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R517" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R518" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R519" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R520" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R521" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R522" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R523" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R524" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R525" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R526" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R527" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R528" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R529" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R530" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R531" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R532" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R533" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R534" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R535" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R536" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R537" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R538" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R539" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R540" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R541" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R542" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R543" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R545" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R546" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R547" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R548" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R549" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R550" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R551" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R552" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R553" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R554" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R555" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R559" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R560" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R561" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R562" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R563" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R564" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R565" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R566" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R567" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R568" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R569" model="4;2S;Resistor;1812; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R570" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R571" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R572" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R600" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R601" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R602" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R603" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R604" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R606" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R607" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R608" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R609" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R610" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R611" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R612" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R613" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R614" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R615" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R616" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R617" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R618" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R619" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R620" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R621" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R622" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R623" model="4;2S;Resistor;1206; n:2;fHght:0.6;color:204020"/>
+		<c RefID="R625" model="4;2S;Resistor;0603; n:2;fHght:0.5;color:204020"/>
+		<c RefID="REL1" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL2" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL3" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL4" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL5" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL6" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL7" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL8" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL9" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL10" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL11" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL12" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL13" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL14" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL15" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL16" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="REL17" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+CUBE,fpx:1.3,fpy:0,arot:0.0,fsx:15,fsy:7.6,fsz:7,fh0:0.15,frh:0.169333,frv:0.15,frl:0.15,col:16347A
+*</c>
+		<c RefID="SR5" model="4;MS;#2;Gull-Wing; n:7;fCaseWid:3.11;fCaseLen:4.32;fHght:1.78;color:404040;fPinPith:2.54;fPinSpan:5.91;fPinCont:0.714"/>
+		<c RefID="SR6" model="4;MS;#2;Gull-Wing; n:7;fCaseWid:3.11;fCaseLen:4.32;fHght:1.78;color:404040;fPinPith:2.54;fPinSpan:5.91;fPinCont:0.714"/>
+		<c RefID="T1" model="4;MS;#2;Gull-Wing; n:7;fCaseWid:6.5;fCaseLen:4.58;fHght:3.5;color:E0E080;fPinPith:2.53;fPinSpan:9.1;fPinCont:0.808"/>
+		<c RefID="T2" model="4;MS;#2;Gull-Wing; n:7;fCaseWid:6.5;fCaseLen:4.58;fHght:3.5;color:E0E080;fPinPith:2.53;fPinSpan:9.1;fPinCont:0.808"/>
+		<c RefID="T3" model="4;MS;#2;Gull-Wing; n:7;fCaseWid:6.5;fCaseLen:4.58;fHght:3.5;color:E0E080;fPinPith:2.53;fPinSpan:9.1;fPinCont:0.808"/>
+		<c RefID="T4" side="top" model="4;MT;#5;DIP300; n:2;bCutLen:1;color:444444"/>
+		<c RefID="T5" side="top" model="4;MT;#5;DIP300; n:2;bCutLen:1;color:444444"/>
+		<c RefID="T100" model="4;MS;#2;Gull-Wing; n:7;fCaseWid:4.87;fCaseLen:4.32;fHght:4;color:406040;fPinPith:2.54;fPinSpan:8.25;fPinCont:0.762"/>
+		<c RefID="T200" model="4;MS;#2;Gull-Wing; n:7;fCaseWid:4.87;fCaseLen:4.32;fHght:4;color:406040;fPinPith:2.54;fPinSpan:8.25;fPinCont:0.762"/>
+		<c RefID="T201" model="4;MS;#2;Gull-Wing; n:7;fCaseWid:4.87;fCaseLen:4.32;fHght:4;color:406040;fPinPith:2.54;fPinSpan:8.25;fPinCont:0.762"/>
+		<c RefID="T500" side="top" model="4;MT;#5;DIP300; n:2;bCutLen:1;color:444444"/>
+		<c RefID="T501" side="top" model="4;MT;#5;DIP300; n:2;bCutLen:1;color:444444"/>
+		<c RefID="T502" side="top" model="4;MT;#5;DIP300; n:2;bCutLen:1;color:444444"/>
+		<c RefID="TEX1" side="top" model="4;2T;Conn/Header;Header Vert; n:9;fHght:4;fHoldH:2.4;fHoldW:2.54;fBaseH:0.1;color:404040;fPinBL:3;bRndPin:0;fPinWid:0.64;colPin:FFD700"/>
+		<c RefID="TR400" side="top" usebb="yes" model="4;MT;#5;Extruded">
+body
+HCYL,fpx:0,fpy:0,arot:90.0,frad:6,flen:12.8,fh0:1,fer:0,fgdist:0.2,fgwid:8.4,fgslox:2,fgsloy:-0.8,col:E0D040
+CUBE,fpx:9,fpy:0,arot:0.0,fsx:3.5,fsy:22,fsz:8,fh0:3,frh:0.5,frv:0.15,frl:0.15,col:404040
+CUBE,fpx:-9,fpy:0,arot:0.0,fsx:3.5,fsy:22,fsz:8,fh0:3,frh:0.5,frv:0.15,frl:0.15,col:404040
+RCBD,fpx:0,fpy:9,arot:0.0,fsx:15.6,fsy:4,fsz:8,fh0:3,fer:0.15,xmask:FF,colsid:404040,coltop:404040
+RCBD,fpx:0,fpy:-9,arot:0.0,fsx:15.6,fsy:4,fsz:8,fh0:3,fer:0.15,xmask:FF,colsid:404040,coltop:404040
+CUBE,fpx:0,fpy:-6.7,arot:0.0,fsx:14,fsy:0.6,fsz:13.5,fh0:0.1,frh:0.1,frv:0.1,frl:0.5,col:FFFFE0
+CUBE,fpx:0,fpy:6.7,arot:0.0,fsx:14,fsy:0.6,fsz:13.5,fh0:0.1,frh:0.1,frv:0.1,frl:0.5,col:FFFFE0
+CUBE,fpx:0,fpy:7.75,arot:0.0,fsx:16,fsy:2.7,fsz:2,fh0:0.1,frh:0.1,frv:0.1,frl:0.5,col:FFFFE0
+CUBE,fpx:0,fpy:-7.75,arot:0.0,fsx:16,fsy:2.7,fsz:2,fh0:0.1,frh:0.1,frv:0.1,frl:0.5,col:FFFFE0
+*</c>
+		<c RefID="TR401" side="top" model="2;1T"/>
+		<c RefID="U1" model="5;MS;#1;Gull-Wing;QFP208; n:1;color:404040"/>
+		<c RefID="U2" model="5;MS;#1;Gull-Wing;TQ176; n:1;color:404040"/>
+		<c RefID="U3" model="5;MS;#1;Gull-Wing;TQFP64; n:1;color:404040"/>
+		<c RefID="U4" model="5;MS;#0;J-Lead;SOJ-a; n:1;color:404040"/>
+		<c RefID="U5" model="5;MS;#0;J-Lead;SOJ-a; n:1;color:404040"/>
+		<c RefID="U6" model="4;MS;#4;SOT223; n:1;color:404040"/>
+		<c RefID="U7" side="top" model="4;MT;#9;OSC-Can; n:8;bLeft:0;fPinPith:15.2;fPinSpan:7.62;fLength:20.8;fWidth:13.2;fHeight:6.4;fBHeight:0.9;color:E0E0E0"/>
+		<c RefID="U8" model="5;MS;#0;Gull-Wing;SO14; n:1;color:404040"/>
+		<c RefID="U9" model="5;MS;#0;Gull-Wing;SO14; n:1;color:404040"/>
+		<c RefID="U10" model="5;MS;#0;Gull-Wing;SO14; n:1;color:404040"/>
+		<c RefID="U21" model="5;MS;#0;Gull-Wing;SO14; n:1;color:404040"/>
+		<c RefID="U100" model="4;MS;#4;SOT223; n:1;color:404040"/>
+		<c RefID="U101" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U102" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U103" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U104" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U105" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U106" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U107" model="5;MS;#1;Gull-Wing;TQFP32A; n:1;color:404040"/>
+		<c RefID="U109" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U110" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U111" model="5;MS;#0;J-Lead;SOJ-a; n:1;color:404040"/>
+		<c RefID="U200" model="4;MS;#4;SOT223; n:1;color:404040"/>
+		<c RefID="U201" model="4;MS;#4;SOT223; n:1;color:404040"/>
+		<c RefID="U202" model="5;MS;#0;Gull-Wing;SSOP16; n:1;color:404040"/>
+		<c RefID="U203" model="5;MS;#0;Gull-Wing;SSOP16; n:1;color:404040"/>
+		<c RefID="U204" model="5;MS;#1;Gull-Wing;QFP44; n:1;color:404040"/>
+		<c RefID="U205" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U206" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U207" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U208" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U209" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U210" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U211" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U212" model="5;MS;#0;Gull-Wing;SSOP20; n:1;color:404040"/>
+		<c RefID="U213" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U214" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U215" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U216" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U217" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U300" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U301" model="5;MS;#0;Gull-Wing;SO14; n:1;color:404040"/>
+		<c RefID="U302" model="5;MS;#0;Gull-Wing;SO14; n:1;color:404040"/>
+		<c RefID="U303" model="5;MS;#0;Gull-Wing;SO14; n:1;color:404040"/>
+		<c RefID="U400" model="5;MS;#0;Gull-Wing;SO14; n:1;color:404040"/>
+		<c RefID="U401" model="4;MS;#4;SOT223; n:1;color:404040"/>
+		<c RefID="U402" model="4;MS;#4;SOT223; n:1;color:404040"/>
+		<c RefID="U403" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U404" model="4;MS;#4;SOT223; n:1;color:404040"/>
+		<c RefID="U405" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U406" model="4;3S;#1;DPACK; n:1;color:404040"/>
+		<c RefID="U407" model="4;3S;#1;DPACK; n:1;color:404040"/>
+		<c RefID="U408" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U500" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U502" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U504" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U505" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U506" model="5;MS;#0;Gull-Wing;SO20; n:1;color:404040"/>
+		<c RefID="U507" model="5;MS;#0;Gull-Wing;SO20; n:1;color:404040"/>
+		<c RefID="U508" model="5;MS;#0;Gull-Wing;SSOP8; n:1;color:404040"/>
+		<c RefID="U509" model="5;MS;#0;Gull-Wing;SO20; n:1;color:404040"/>
+		<c RefID="U510" model="4;MS;#4;SOT223; n:1;color:404040"/>
+		<c RefID="U511" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U512" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U513" model="4;MS;#4;SOT223; n:1;color:404040"/>
+		<c RefID="U514" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U600" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U601" model="5;MS;#0;Gull-Wing;SSOP8; n:1;color:404040"/>
+		<c RefID="U602" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U604" model="5;MS;#0;Gull-Wing;SO8; n:1;color:404040"/>
+		<c RefID="U605" model="5;MS;#0;Gull-Wing;SSOP8; n:1;color:404040"/>
+		<c RefID="X500" side="top" model="4;2T;Crystal;HC-49; n:3;fHght:3.5;fPinBL:2.1;fPinD:0.5"/>
+	</ComponentList>
+</CAMsetup>

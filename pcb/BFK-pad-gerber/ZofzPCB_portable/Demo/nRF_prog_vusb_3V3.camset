@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+<CAMsetup>
+	<thisfile>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\nRF_prog_vusb_3V3.camset</thisfile>
+	<morelayertypes>
+	</morelayertypes>
+	<usecolors>
+		<mixer>0.000</mixer>
+		<object type="Plated H. In">00BFBFBF</object>
+		<object type="Plated H. Out">0026120F</object>
+		<object type="Edge In">008C8C09</object>
+		<object type="Edge Out">00809854</object>
+		<object type="Volume">9E7D8C59</object>
+		<object type="Background">00898989</object>
+		<layer type="PasteMask">008080C0</layer>
+		<layer type="Silkscreen">00E3E3E3</layer>
+		<layer type="SolderMask">900B2B06</layer>
+		<layer type="Copper">00765223</layer>
+		<layer type="Core">00000000</layer>
+		<layer type="Prepreg">00000000</layer>
+		<layer type="BoardOutline">00000000</layer>
+	</usecolors>
+	<boardlayers>
+		<layer type="Silkscreen" H="35" Er="0.000" color="00CBFFD4">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\nRF_prog_vusb_3V3\nRF_prog_vusb_3V3.GTO</filename>
+			<filedisp>nRF_prog_vusb_3V3.GTO</filedisp>
+		</layer>
+		<layer type="SolderMask" H="35" Er="0.000" color="00001700">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\nRF_prog_vusb_3V3\nRF_prog_vusb_3V3.GTS</filename>
+			<filedisp>nRF_prog_vusb_3V3.GTS</filedisp>
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="00800000">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\nRF_prog_vusb_3V3\nRF_prog_vusb_3V3.GTL</filename>
+			<filedisp>nRF_prog_vusb_3V3.GTL</filedisp>
+		</layer>
+		<layer type="Prepreg" H="1390" Er="4.800">
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="000000D0">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\nRF_prog_vusb_3V3\nRF_prog_vusb_3V3.GBL</filename>
+			<filedisp>nRF_prog_vusb_3V3.GBL</filedisp>
+		</layer>
+		<layer type="SolderMask" H="35" Er="0.000" color="00000C1E">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\nRF_prog_vusb_3V3\nRF_prog_vusb_3V3.GBS</filename>
+			<filedisp>nRF_prog_vusb_3V3.GBS</filedisp>
+		</layer>
+		<layer type="Silkscreen" H="35" Er="0.000" color="00CAD2F6">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\nRF_prog_vusb_3V3\nRF_prog_vusb_3V3.GBO</filename>
+			<filedisp>nRF_prog_vusb_3V3.GBO</filedisp>
+		</layer>
+		<layer type="BoardOutline" H="1600">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\nRF_prog_vusb_3V3\nRF_prog_vusb_3V3.edge</filename>
+			<filedisp>nRF_prog_vusb_3V3.edge</filedisp>
+		</layer>
+	</boardlayers>
+
+	<boarddrillplates>
+		<drillplate from="top" to="btm" plated="yes" filled="no" microvia="no">
+			<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\nRF_prog_vusb_3V3\nRF_prog_vusb_3V3.TXT</filename>
+			<filedisp>nRF_prog_vusb_3V3.TXT</filedisp>
+		</drillplate>
+	</boarddrillplates>
+
+	<ipc356>
+		<filename>C:\Program Files (x86)\ZofzPCB\ZofzPCB\Demo\nRF_prog_vusb_3V3\nRF_prog_vusb_3V3.ipc</filename>
+		<filedisp>nRF_prog_vusb_3V3.ipc</filedisp>
+	</ipc356>
+
+	<GerberSetup Incremental='no' OmitTrailingZeros='no' Milimeters='no' Len1='2' Len2='3'/>
+	<NCDSetup Guess='yes' Incremental='no' OmitTrailingZeros='no' Units='DefaultInch' Len1='2' Len2='3' Autooffset='yes'/>
+	<IPC356Setup AutoUnits='1' AutoMagnitude='1' LongPinID='yes' CpyFromDrill='yes' Autooffset='yes' AutoBtmAcc='yes'/>
+	<BoardOutlineDrawing srctype='1' trackwidthMin='0.004' trackwidthSlopStart='0.01' trackwidthMetaTrsh='0.012'/>
+	<IdentifyOutline mode='2' removeoutside='yes' horizMargin='5' vertMargin='2.5' brushBlob='1' />
+	<PosSaveRestoreTab>
+		<entry idx='1' pos='-41.1256, -13.2513, -29.1484' rot='-0.468844, 0.256834, -0.406027, 0.741191'/>
+		<entry idx='2' pos='243.0308, 345.1474, -8.7014' rot='-0.472118, 0.113002, -0.203500, 0.850249'/>
+		<entry idx='3' pos='278.6378, 350.3644, -0.2550' rot='-0.500000, -0.500000, 0.500000, 0.500000'/>
+		<entry idx='4' pos='278.6378, 350.3644, -0.2550' rot='-0.500000, -0.500000, 0.500000, 0.500000'/>
+		<entry idx='5' pos='278.6378, 350.3644, -0.2550' rot='-0.500000, -0.500000, 0.500000, 0.500000'/>
+	</PosSaveRestoreTab>
+
+	<NetList DefaultColor="hash">
+	</NetList>
+
+	<ComponentList>
+		<c RefID="AVR_ISP" side="top" model="3;MT;#4"/>
+		<c RefID="AVR_RST" model="4;MS;#2;Push-Button; n:11;fCaseWid:5;fBaseHght:1.8;fHght:2.4;color:707080;cBtnColor:F06060;fBtnDia:2.8;fRngDia:3.5;fRngHght:0.2;fPinPith:3.7;fPinSpan:7.04;fPinCont:0.599"/>
+		<c RefID="C1" model="4;2S;El-Cap;3528-21; n:2;fHght:1.9;color:FFE14F"/>
+		<c RefID="C2" model="4;2S;Capacitor;0805; n:2;fHght:1.25;color:906020"/>
+		<c RefID="C3" model="4;2S;Capacitor;0805; n:2;fHght:1.25;color:906020"/>
+		<c RefID="C4" model="4;2S;El-Cap;3528-21; n:2;fHght:1.9;color:FFE14F"/>
+		<c RefID="C5" model="4;2S;El-Cap;3528-21; n:2;fHght:1.9;color:FFE14F"/>
+		<c RefID="C6" model="4;2S;Capacitor;0805; n:2;fHght:1.25;color:906020"/>
+		<c RefID="DBG1" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="DBG2" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="DBG_UART" side="top" model="5;MT;#0;Conn/Header;Header Vert; n:9;fHght:7;fHoldH:2.4;fHoldW:2.54;fBaseH:0.1;color:404040;fPinBL:3;bRndPin:0;fPinWid:0.64;colPin:FFD700"/>
+		<c RefID="ERR" model="4;2S;LED;0805; n:8;fBseHeight:0.4;cBseColor:FFFFFF;bDome:1;fLensHgt:0.625;fLensLen:1.25;fLensWid:1.12;colorLns:FD1010;cPadColor:FDF010"/>
+		<c RefID="JP1" side="top" model="4;2T;Conn/Header;Header Vert; n:9;fHght:7;fHoldH:2.4;fHoldW:2.54;fBaseH:0.1;color:404040;fPinBL:3;bRndPin:0;fPinWid:0.64;colPin:FFD700"/>
+		<c RefID="LM3940" model="4;MS;#4;SOT223; n:1;color:404040"/>
+		<c RefID="LU1+_GENERIC" side="top" model="5;MT;#0;Conn/Header;Header Vert; n:9;fHght:3.5;fHoldH:1.5;fHoldW:2;fBaseH:0.1;color:404040;fPinBL:3.4;bRndPin:0;fPinWid:0.5;colPin:FFD700"/>
+		<c RefID="LU1+_SPARKFUN" side="top" model="5;MT;#2;Conn/Header;Header 90; n:10;bLeft:0;fLen:6;fHght:3.5;fHoldH:2.4;fHoldW:2.54;color:404040;fPinBL:3;bRndPin:0;fPinWid:0.64;colPin:FFD700"/>
+		<c RefID="PROG" model="4;2S;LED;0805; n:8;fBseHeight:0.4;cBseColor:FFFFFF;bDome:1;fLensHgt:0.625;fLensLen:1.25;fLensWid:1.12;colorLns:FD1010;cPadColor:FDF010"/>
+		<c RefID="Q1" side="top" model="4;2T;Crystal;HC-49; n:3;fHght:3.5;fPinBL:2.1;fPinD:0.5"/>
+		<c RefID="R1" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R2" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R3" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R4" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R5" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R6" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R7" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R8" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R9" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="R10" model="4;2S;Resistor;0805; n:2;fHght:0.5;color:204020"/>
+		<c RefID="TGT_PWR" side="top" model="5;3T;#0;Conn/Header;Header Vert; n:9;fHght:7;fHoldH:2.4;fHoldW:2.54;fBaseH:0.1;color:404040;fPinBL:3;bRndPin:0;fPinWid:0.64;colPin:FFD700"/>
+		<c RefID="THE_BEAST" model="5;MS;#1;Gull-Wing;TQFP32A; n:1;color:404040"/>
+		<c RefID="USB" model="4;2S;LED;0805; n:8;fBseHeight:0.4;cBseColor:FFFFFF;bDome:1;fLensHgt:0.625;fLensLen:1.25;fLensWid:1.12;colorLns:FD1010;cPadColor:FDF010"/>
+		<c RefID="USB-B" side="top" model="2;MT"/>
+	</ComponentList>
+</CAMsetup>

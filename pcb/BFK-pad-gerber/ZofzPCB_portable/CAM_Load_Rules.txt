@@ -1,0 +1,448 @@
+//
+// CAM Files Load Rules Script
+// This file describes naming conventions. 
+// Conventions are grouped in independent sections.
+// ZofzPCB searches for this file first in the CAM folder, 
+// then in %APPDATA%\ZofzPCB then in in exe instalation folder.
+// This file is installed to %APPDATA%\ZofzPCB. There it can be edited by the user.
+// For backup purposes, it is also placed to the exe installation folder.
+// How the rules are played:
+// fist match assigns file and stops further search for this particular file, except
+// for the BoardOutline. If you place the BoardOutline before another layer, 
+// a single file may be used for the BoardOutline and for the other layer. 
+//
+// syntax:
+//   section <any name>
+//	 < definition of additional layer types >
+//   < list of file rules>
+//
+// definition of additional layer types
+// DEF <type_name> <conductivity> <polarity> <visibility> <color>
+//  <conductivity> I-insulator C-conductor (in sense of netlist)
+//  <polarity>   P-positive N-negative, like a solder mask
+//  <visibility> O-opaque T-transparent, like a solder mask
+//  <color>		hex value, RRGGBB or AARRGGBB for a transparent layer
+//  order of layers is from outside to core of the PCB
+//
+// list of file rules:
+//  for each layer type and associated masks, one entry per text line, order: first match is used
+//   <layer_file_type> <stack_position> <default_polarity>    <file_mask>
+//   <drill_file_type> <layer_numbering>                      <file_mask>
+//   <board_file_type>                                        <file_mask>
+//
+// <layer_file_type> is one of 
+//  PasteMask
+//  Silkscreen
+//  SolderMask
+//  Copper
+// <drill_file_type> is one of 
+//  Drill_PTH
+//  Drill_NPTH
+//  Drill_Inc
+// <board_file_type> is one of 
+//  Ignore
+//  BoardOutline
+//  BOM
+//  IPC356
+// <stack_position> is none, one or more of: T, M, B
+//	T - top, 
+//	M - middle
+//	B - bottom
+// <layer_numbering> is none, one or more of: T, M, B
+//	M - numbers refer to inner/middle layer number like (T,1,2,B). Default is (1,2,3,4)
+//	T - between top and a single number
+//	B - between a single number and Bottom
+//      <empty> - two numbers: from-to
+// <default_polarity>
+//  empty "" is default positive; slash sign "/" is default negative. Used if image polarity (%IP..) is not defined in the file.
+// <file_mask>
+//   lower-case characters, to express real file name characters, (space is allowed)
+//   wild-card: "*" 
+//   layer number "N"
+//
+
+section KICAD (Protel Mode)
+BOM                *.csv
+IPC356             *.ipc
+IPC356             *.d356
+Ignore             status report.txt
+Ignore             pick place *
+Ignore             testpoint report *
+PasteMask  T       *.gtp
+PasteMask  B       *.gbp
+Silkscreen T       *.gto
+Silkscreen B       *.gbo
+SolderMask T       *.gts
+SolderMask B       *.gbs
+Copper     T       *.gtl
+Copper     M       *.gN
+Copper     B       *.gbl
+Copper     M /     *.gpN
+BoardOutline       *.gbr
+BoardOutline       *.gko
+BoardOutline       *.gm1
+Drill_NPTH         *np*.drl
+Drill_PTH  M       *-inN-inN.drl 
+Drill_PTH  TM      *-front-inN.drl 
+Drill_PTH  BM      *-inN-back.drl
+Drill_PTH          *.drl
+
+section KICAD (Native)
+BOM                *.csv
+IPC356             *.ipc
+IPC356             *.d356
+Ignore             status report.txt
+Ignore             pick place *
+Ignore             testpoint report *
+PasteMask  T       *-f.paste.gbr
+PasteMask  B       *-b.paste.gbr
+Silkscreen T       *-f.silks.gbr
+Silkscreen B       *-b.silks.gbr
+SolderMask T       *-f.mask.gbr
+SolderMask B       *-b.mask.gbr
+Copper     T       *-front.gbr
+Copper     M       *.gN
+Copper     B       *-back.gbr
+Copper     M /     *.gpN
+BoardOutline       *.gbr
+BoardOutline       *.gko
+BoardOutline       *.gml
+Drill_NPTH         *-npth.drl
+Drill_PTH  M       *-inN-inN.drl 
+Drill_PTH  TM      *-front-inN.drl 
+Drill_PTH  BM      *-inN-back.drl
+Drill_PTH          *.drl
+
+section Protel99se
+BOM                *bom*.csv
+IPC356             *.ipc
+Ignore             status report.txt
+Ignore             pick place *
+Ignore             testpoint report *
+PasteMask  T       *.gtp
+PasteMask  B       *.gbp
+Silkscreen T       *.gto
+Silkscreen B       *.gbo
+SolderMask T       *.gts
+SolderMask B       *.gbs
+Copper     T       *.gtl
+Copper     M       *.gN
+Copper     B       *.gbl
+Copper     M /     *.gpN  
+BoardOutline       *.gko
+BoardOutline       *.gm1
+BoardOutline       *.gml
+Drill_NPTH         *np*.txt
+Drill_PTH          *.txt
+
+section CIRCAD Omniglyph
+BOM                *.csv
+IPC356             *.ipc
+PasteMask  T       *.tsp
+PasteMask  B       *.bsp
+Silkscreen T       *.tss
+Silkscreen B       *.bss
+SolderMask T       *.tsm
+SolderMask B       *.bsm
+Copper     T       *.top
+Copper     M       *.mlN
+Copper     B       *.bot
+BoardOutline       *.cam
+Drill_NPTH         *np*.drl
+Drill_PTH          *.drl
+
+section Mentor1
+BOM                *.csv
+IPC356             *ipc_356_data
+Silkscreen TB      *silkscreen_N
+SolderMask TB      *solder_mask_N
+Copper     TMB     *copper_N
+BoardOutline       *outline
+Drill_NPTH         *np*drill_N_N
+Drill_PTH          *drill_N_N
+
+section Mentor2
+DEF Peelable   I P T 40FFB53F  
+DEF CCoating   I P T 206D4E31
+DEF Stiffener  I P O   7F31B2
+DEF CarbonMask I P O   0F0F0F
+DEF ThermalMsk I P O   E0E0E0
+BOM                *.csv
+IPC356             *.ipc
+Peelable   T       *_plt.gdo
+Peelable   B       *_plb.gdo
+CCoating   T       *_cct.gdo
+CCoating   B       *_ccb.gdo
+Stiffener  T       *_smt.gdo
+Stiffener  B       *_smb.gdo
+CarbonMask T       *_ct.gdo
+CarbonMask B       *_cb.gdo
+ThermalMsk T       *_tt.gdo
+ThermalMsk B       *_tb.gdo
+PasteMask  T       *_pt.gdo
+PasteMask  B       *_pb.gdo
+Silkscreen T       *_st.gdo
+Silkscreen B       *_sb.gdo
+SolderMask T       *_mt.gdo
+SolderMask B       *_mb.gdo
+Copper     TMB     *_lN.gdo
+BoardOutline       *_bo.gdo
+Drill_NPTH         *_N-Nnp.ncd
+Drill_PTH          *_N-Np.ncd
+Drill_NPTH         *_cnp.ncd
+Drill_PTH          *_cp.ncd
+Drill_NPTH         *_thnp.ncd
+Drill_PTH          *_thp.ncd
+
+section PADS92
+BOM                *.csv
+IPC356             *.ipc
+Ignore             *.rep
+Ignore             *.lst
+PasteMask  T       *_st1.gbr
+PasteMask  B       *_stN.gbr
+Silkscreen T       *_ss1.gbr
+Silkscreen B       *_ssN.gbr
+SolderMask T       *_sm1.gbr
+SolderMask B       *_smN.gbr
+Copper     TBM     *_lN.gbr
+BoardOutline       *_brd.gbr
+Drill_NPTH         *_npth.drl
+Drill_PTH          *_pth.drl
+
+section PADS9.5
+BOM                *.txt
+IPC356             *.ipc
+Ignore             *.rep
+Ignore             *.lst
+PasteMask  T       *_smd.pho
+PasteMask  B       *_stN.pho
+Silkscreen T       *_ss.pho
+Silkscreen B       *_ssb.pho
+SolderMask T       *_smt.pho
+SolderMask B       *_smb.pho
+Copper     TBM     *_artN.pho
+BoardOutline       outline.pho
+Drill_PTH          *_drl.drl
+
+
+section Orcad?
+BOM                *.csv
+IPC356             *.ipc
+Silkscreen T       *.sst
+Silkscreen B       *.ssb
+SolderMask T       *.smt
+SolderMask T       *.smb
+Copper     T       *.top
+Copper     M       *.gnd
+Copper     M       *.inN
+Copper     M       *.pwr
+Copper     B       *.bot
+Drill_NPTH         *np*.tap
+Drill_PTH          *.tap
+
+section OrCAD (Alex,David)
+BOM                *.csv
+IPC356             *.ipc
+Silkscreen T       top_silk.art
+Silkscreen B       bottom_silk.art
+SolderMask T       top_mask.art
+SolderMask B       bottom_mask.art
+Copper     T       top.art
+Copper     M       inN.art
+Copper     M       lN_*.art
+Copper     B       bottom.art
+Drill_NPTH         ncdrillN-Nnp.drl
+Drill_PTH          ncdrillN-N.drl
+Drill_NPTH         ncdrill*np.drl
+Drill_PTH          ncdrill*.drl
+BoardOutline       outline.art
+
+section Eagle
+BOM                *.csv
+IPC356             *.ipc
+Silkscreen T       *.plc
+Silkscreen B       *.pls
+SolderMask T       *.stc
+SolderMask B       *.sts
+Copper     T       *.cmp
+Copper     B       *.sol
+Copper     M       *.lyN
+Copper     M       *.lN
+Drill_NPTH         *np*.drd
+Drill_PTH          *.drd
+
+section Proteus New
+BOM                *.csv
+IPC356             *netlist.ipc
+Silkscreen T       *top silk screen.gbr
+Silkscreen B       *bottom silk screen.gbr
+SolderMask T       *top solder resist.gbr
+SolderMask B       *bottom solder resist.gbr
+PasteMask  T       *top smt paste.gbr
+PasteMask  B       *bottom smt paste.gbr
+Copper     T       *top copper.gbr
+Copper     B       *bottom copper.gbr
+Copper     M       *inner  N.gbr
+Copper     M       *inner N.gbr
+BoardOutline       *mechanical 1.gbr
+Drill_PTH          *drill.drl
+
+section Proteus Old
+BOM                *.csv
+IPC356             *.ipc
+PasteMask  T       *top smt paste mask
+PasteMask  B       *bottom smt paste mask
+Silkscreen T       *top silk screen.txt
+Silkscreen B       *bottom silk screen.txt
+SolderMask T       *top solder resist.txt
+SolderMask B       *bottom solder resist.txt
+Copper     T       *top copper.txt
+Copper     B       *bottom copper.txt
+Copper     M       *innerN copper.txt
+Drill_PTH          *drill.txt
+BoardOutline       *mechanical 1.txt
+
+section Alpha CAM (?) .art
+BOM                *.csv
+IPC356             *.ipc
+PasteMask  T       *.gts
+PasteMask  B       *.gbs
+Silkscreen T       *.gto
+Silkscreen B       *.gbo
+SolderMask T       *.gts
+SolderMask B       *.gbs
+Copper     T       top.art
+Copper     M       lN.art
+Copper     B       bottom.art
+Copper     M /     *.gpN  
+BoardOutline       dimension.art
+Drill_NPTH         *np*.tap
+Drill_PTH          *.tap
+
+section Cadence Allegro (Benjamin)
+BOM                *.csv
+IPC356             *.ipc
+Silkscreen T       silktop.art
+Silkscreen B       silkbot.art
+SolderMask T       soldtop.art
+SolderMask B       soldbot.art
+Copper     T       top.art
+Copper     M       *N.art
+Copper     B       bottom.art
+Drill_PTH          *.drl
+// Drill_PTH          drill.art
+
+section Pulsonix - James
+BOM                *.csv
+IPC356             *(crowcon ipc-d-356 netlist).txt
+PasteMask  T       *(paste mask top).gbr
+PasteMask  B       *(paste mask bottom).gbr
+Silkscreen T       *(silkscreen top).gbr
+Silkscreen B       *(silkscreen bottom).gbr
+SolderMask T       *(solder mask top).gbr
+SolderMask B       *(solder mask bottom).gbr
+Copper     TMB     *(layer N).gbr
+Drill_NPTH         *(drill npth).drl
+Drill_PTH          *(drill pth).drl
+
+section Alan
+BOM                *.csv
+IPC356             *.ipc
+Silkscreen T       *ot.gbx
+Silkscreen B       *ob.gbx
+SolderMask T       *mt.gbx
+SolderMask B       *mb.gbx
+Copper     TMB     *cuN.gbx
+BoardOutline       *_board-outline.gbx
+BoardOutline       *z-board-outline.gbx
+Drill_PTH          *dp.drl
+Drill_NPTH         *dn.drl
+Drill_PTH          *rp.gbx
+Drill_NPTH         *rn.gbx
+
+
+section explicite numbers
+BOM                *.csv
+IPC356             *.ipc
+Copper     TMB     lN*.pho
+Drill_NPTH         *np*.drl
+Drill_PTH          *.drl
+
+section Ceramic Incremental
+BOM                *.csv
+IPC356             *.ipc
+Drill_Inc          N_via*.phd
+Copper     TMB     N_*.phd
+
+section Ucamco
+BOM                *.csv
+IPC356             *.ipc
+Copper     TMB     *_copper$lN.gbr
+Silkscreen T       *_legend$top.gbr
+Silkscreen B       *_legend$bot.gbr
+SolderMask T       *_soldermask$top.gbr
+SolderMask B       *_soldermask$bot.gbr
+BoardOutline       *_profile$np.gbr
+Drill_NPTH         *_nonplated$N$N$npth$drill.gbr
+Drill_NPTH         *_nonplated$N$N$npth$route.gbr
+Drill_PTH          *_plated$N$N$pth$drill.gbr
+
+section DipTrace
+BOM                *.csv
+IPC356             *.ipc
+Copper     T       top.gbr
+Copper     B       bottom.gbr
+Silkscreen T       topsilk.gbr
+Silkscreen B       bottomsilk.gbr
+SolderMask T       topmask.gbr
+SolderMask B       bottommask.gbr
+PasteMask  T       toppaste.gbr
+PasteMask  B       bottompaste.gbr
+BoardOutline       boardoutline.gbr
+Drill_PTH          through.drl
+
+section DesignStar
+BOM                * bom *.csv
+IPC356             * ipc *.rep
+BoardOutline       * sr1 *.ger
+Copper     TMB     * lyN *.ger
+Silkscreen T       * ss1 *.ger
+Silkscreen B       * ss2 *.ger
+SolderMask T       * sr1 *.ger
+SolderMask B       * sr2 *.ger
+PasteMask  T       * sp1 *.ger
+PasteMask  B       * sp2 *.ger
+Drill_PTH          * drill pth *.spl
+
+
+section Sprint Layout 6
+BOM                *.csv
+IPC356             *.ipc
+Copper     T       *_copper_top.gbr
+Copper     B       *_copper_bottom.gbr
+Silkscreen T       *_silkscreen_top.gbr
+Silkscreen B       *_silkscreen_bottom.gbr
+SolderMask T       *_soldermask_top.gbr
+SolderMask B       *_soldermask_bottom.gbr
+BoardOutline       *_boardoutline.gbr
+Drill_PTH          *.drl
+
+section Eagle GerberX2
+BOM                *.csv
+IPC356             *.ipc
+Silkscreen T       silkscreen_top.gbr
+Silkscreen B       silkscreen_bottom.gbr
+SolderMask T       soldermask_top.gbr
+SolderMask B       soldermask_bottom.gbr
+Copper     T       copper_top.gbr
+Copper     B       copper_bottom.gbr
+Copper     M       copper_ly2.gbr
+Copper     M       copper_ly15.gbr
+Drill_NPTH         *np*.drd
+Drill_PTH          *drill_N_N.xln
+Drill_PTH          *.xln
+BoardOutline       profile.gbr
+
+
+

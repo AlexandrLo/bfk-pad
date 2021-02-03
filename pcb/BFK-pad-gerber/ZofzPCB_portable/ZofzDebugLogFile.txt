@@ -1,0 +1,1098 @@
+
+************************************************
+**************PgmVersion 1.2.0000***************
+********************* 0x00AA0000 *********
+SM_CYSMSIZE 22
+SM_CYMENUSIZE 19
+SM_CYCAPTION 23
+Menu-Magnify 1.00
+sigma=0.0001 Initial=1D61CB9FB531508
+ipcpinpar    12
+ballpar     12
+cubeleadpar 24
+thtpinpar   20
+dippinpar   68
+zpinpar     72
+zleadpar    84
+jleadpar    64
+baseholepar 56
+ypinpar     68
+ffcconpar   88
+b2cabconpar 76
+Cursr/Drills/Cuts/Edges Buffer:
+      1862 Vertexes       3488 Triangles - 0MB 0MB
+Tracks Buffer:
+         0 Vertexes          0 Triangles - 0MB 0MB
+Total (netto) 0MB
+SetEnabledComponentMeshList: g_EnableComp1  pComponentInstTab0 IPC356Rec.Data.nComponent0
+CAMSetup filename: D:\root\GoogleDrive\ipcpinpar    12
+ballpar     12
+cubeleadpar 24
+thtpinpar   20
+dippinpar   68
+zpinpar     72
+zleadpar    84
+jleadpar    64
+baseholepar 56
+ypinpar     68
+ffcconpar   88
+b2cabconpar 76
+Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\NCDrill filename: D:\root\GoogleDrive\IPC356 filename: D:\root\GoogleDrive\BOM filename: D:\root\GoogleDrive\Digestig BOM Reference column 3 - 'Components'
+BOM header: Comment, Pattern, Quantity, Components, 
+Digesting BOM Quantity column 2 - 'Quantity'
+footprint match 2/142, column 0
+footprint header match Q2, column 1
+Quantity1 ValueColumn1 FootPrintColumn1
+All BOM columns recognized
+Loading Files 0.332GT
+Drill to Pad Fit Ratio = 3.5 @ scalek=9
+FitDrills 0.525GT
+Delete Previous 0.004GT
+FitDrillsFine 1.241GT
+Drawing Board Outline 0.006GT
+processors: 0001 share cache type2 L1  16384bytes
+processors: 0003 share Core (Flags 1)
+processors: 0002 share cache type2 L1  16384bytes
+processors: 0003 share cache type1 L1  65536bytes
+processors: 0003 share cache type0 L2  2097152bytes
+processors: 0004 share cache type2 L1  16384bytes
+processors: 000C share Core (Flags 1)
+processors: 0008 share cache type2 L1  16384bytes
+processors: 000C share cache type1 L1  65536bytes
+processors: 000C share cache type0 L2  2097152bytes
+processors: 0010 share cache type2 L1  16384bytes
+processors: 0030 share Core (Flags 1)
+processors: 0020 share cache type2 L1  16384bytes
+processors: 0030 share cache type1 L1  65536bytes
+processors: 0030 share cache type0 L2  2097152bytes
+processors: 0040 share cache type2 L1  16384bytes
+processors: 00C0 share Core (Flags 1)
+processors: 0080 share cache type2 L1  16384bytes
+processors: 00C0 share cache type1 L1  65536bytes
+processors: 00C0 share cache type0 L2  2097152bytes
+processors: 00FF share cache type0 L3  8388608bytes
+processors: 00FF share NUMA node 0
+CreateComponentsInstances(mode 2)
+
+Complex Case CN2 Val=RJ-45 FP=RJ-45/G
+nPins=12 nClass=3 countSMD=0 countTHT=12
+StoreEdge: e1-input: 4294967295->[9->3]->2, n4 @9-7-5-3
+Added Edgetab: 4294967295->[9->3]->2, n4 @9-7-5-3
+StoreEdge: e1-input: 3->[2->8]->0, n4 2-4-6-8
+Added Edgetab: 3->[2->8]->0, n4 2-4-6-8
+staggered e1 inp: 4294967295->[9->3]->8, n4 @9-7-5-3
+staggered e2 inp: 3->[8->2]->0, n4 8-6-4-2
+staggered: 4294967295->[9->2]->0, n8 @9-8-7-6-5-4-3-2
+nEdgetab=1 nLongEdg=8 grid=1.09
+THT connector: SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.46 GridArray=0
+
+Complex Case CN3 Val=RJ-45 FP=RJ-45/G
+nPins=12 nClass=3 countSMD=0 countTHT=12
+StoreEdge: e1-input: 4294967295->[9->3]->4, n4 @9-7-5-3
+Added Edgetab: 4294967295->[9->3]->4, n4 @9-7-5-3
+StoreEdge: e1-input: 3->[2->8]->0, n4 2-4-6-8
+Added Edgetab: 3->[2->8]->0, n4 2-4-6-8
+staggered e1 inp: 4294967295->[9->3]->8, n4 @9-7-5-3
+staggered e2 inp: 3->[8->2]->0, n4 8-6-4-2
+staggered: 4294967295->[9->2]->0, n8 @9-8-7-6-5-4-3-2
+nEdgetab=1 nLongEdg=8 grid=1.09
+THT connector: SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.46 GridArray=0
+
+Complex Case CN4 Val=ISP FP=SMT6
+nPins=8 nClass=2 countSMD=8 countTHT=0
+StoreEdge: e1-input: 0->[7->2]->1, n6 7-6-5-4-3-2
+Added Edgetab: 0->[7->2]->1, n6 7-6-5-4-3-2
+nEdgetab=1 nLongEdg=6 grid=1.27
+THT connector: SmalSMDpad x0.81 y1.73; SmalTHTpad R=0.00 GridArray=0
+
+Complex Case CN100 Val=SPANA FP=IDC20
+nPins=20 nClass=1 countSMD=0 countTHT=20
+nEdgetab=2 nLongEdg=10 grid=2.54
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.46
+ComponentBodyHidden
+
+nPins=116 nClass=1 countSMD=116 countTHT=0
+side1  D1 =  0.12
+side1  D100 =  0.14
+side1  D101 =  0.14
+side1  D102 =  0.12
+side1  D103 =  0.12
+side1  D104 =  0.12
+side1  D105 =  0.12
+side1  D106 =  0.14
+side1  D107 =  0.14
+side1  D200 =  0.12
+side1  D201 =  0.12
+side1  D202 =  0.12
+side1  D203 =  0.12
+side1  D204 =  0.12
+side1  D205 =  0.12
+side1  D206 =  0.12
+side1  D207 =  0.12
+side1  D208 =  0.12
+side1  D209 =  0.14
+side1  D210 =  0.14
+side1  D411 =  0.12
+side1  D502 =  0.12
+side1  D503 =  0.12
+side1  D505 =  0.12
+side1  D506 =  0.12
+side1  D507 =  0.14
+side1  D600 =  0.12
+side1  D601 =  0.14
+side1  D602 =  0.12
+side1  D604 =  0.12
+side1  Q1 =  0.14
+side0  Q2 =  0.14
+side1  Q4 =  0.14
+side1  Q200 =  0.14
+
+Complex Case Q201 Val=FZT953 FP=SOT-223BCEC
+nPins=4 nClass=2 countSMD=4 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->3]->1, n3 @0-2-3
+Added Edgetab: 4294967295->[0->3]->1, n3 @0-2-3
+nEdgetab=1 nLongEdg=3 grid=2.28
+Single Row THT, all the same pads PLUS thermal pad
+side1  Q202 =  0.14
+
+Complex Case Q203 Val=FZT853 FP=SOT-223BCEC
+nPins=4 nClass=2 countSMD=4 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->3]->1, n3 @0-2-3
+Added Edgetab: 4294967295->[0->3]->1, n3 @0-2-3
+nEdgetab=1 nLongEdg=3 grid=2.29
+Single Row THT, all the same pads PLUS thermal pad
+
+Complex Case Q400 Val=Si4412DY FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.76 y1.27; SmalTHTpad R=0.00
+
+Complex Case Q401 Val=Si4412DY FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.76 y1.27; SmalTHTpad R=0.00
+
+Complex Case Q402 Val=Si4412DY FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.76 y1.27; SmalTHTpad R=0.00
+side1  Q502 =  0.14
+side1  Q503 =  0.14
+side1  Q504 =  0.14
+side0  Q505 =  0.14
+side1  Q506 =  0.14
+side1  Q507 =  0.14
+side1  Q508 =  0.14
+side1  Q509 =  0.14
+side1  Q510 =  0.14
+side1  Q511 =  0.14
+side1  Q600 =  0.14
+side1  Q601 =  0.14
+side1  Q602 =  0.14
+
+Complex Case Q603 Val=BCP51-16 FP=SOT-223BCEC
+nPins=4 nClass=2 countSMD=4 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->3]->1, n3 @0-2-3
+Added Edgetab: 4294967295->[0->3]->1, n3 @0-2-3
+nEdgetab=1 nLongEdg=3 grid=2.28
+Single Row THT, all the same pads PLUS thermal pad
+side1  Q604 =  0.14
+side1  Q605 =  0.14
+
+Complex Case Q607 Val=MJE350 FP=TO-126/ECB/H
+nPins=4 nClass=2 countSMD=0 countTHT=4
+StoreEdge: e1-input: 4294967295->[3->0]->2, n3 @3-1-0
+Added Edgetab: 4294967295->[3->0]->2, n3 @3-1-0
+nEdgetab=1 nLongEdg=3 grid=2.54
+Single Row THT, all the same pads PLUS thermal pad
+side1  Q608 =  0.14
+
+Complex Case Q610 Val=MJE340 FP=TO-126/ECB/H
+nPins=4 nClass=2 countSMD=0 countTHT=4
+StoreEdge: e1-input: 4294967295->[3->0]->2, n3 @3-1-0
+Added Edgetab: 4294967295->[3->0]->2, n3 @3-1-0
+nEdgetab=1 nLongEdg=3 grid=2.54
+Single Row THT, all the same pads PLUS thermal pad
+
+Complex Case REL1 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL2 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL3 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL4 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL5 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL6 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL7 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL8 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL9 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL10 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL11 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL12 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL13 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL14 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL15 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL16 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case REL17 Val=RELAY FP=NAIS-TX2
+nPins=8 nClass=1 countSMD=0 countTHT=8
+StoreEdge: e1-input: 4294967295->[0->3]->4, n4 @0-1-2-3
+Added Edgetab: 4294967295->[0->3]->4, n4 @0-1-2-3
+StoreEdge: e1-input: 3->[4->7]->4294967295, n4 4-5-6-7
+Added Edgetab: 3->[4->7]->4294967295, n4 4-5-6-7
+nEdgetab=2 nLongEdg=4 grid=3.39
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.38
+
+Complex Case SR5 Val=CPC1035N FP=SO-4/6
+nPins=4 nClass=1 countSMD=4 countTHT=0
+nEdgetab=2 nLongEdg=2 grid=2.54
+Double Row, equal count or 2+n, SmalSMDpad x0.79 y1.19; SmalTHTpad R=0.00
+
+Complex Case SR6 Val=CPC1035N FP=SO-4/6
+nPins=4 nClass=1 countSMD=4 countTHT=0
+nEdgetab=2 nLongEdg=2 grid=2.54
+Double Row, equal count or 2+n, SmalSMDpad x0.79 y1.19; SmalTHTpad R=0.00
+
+Complex Case T1 Val=PC817 FP=DIP4S
+nPins=4 nClass=2 countSMD=4 countTHT=0
+nEdgetab=2 nLongEdg=2 grid=2.53
+Double Row, equal count or 2+n, SmalSMDpad x1.22 y1.22; SmalTHTpad R=0.00
+
+Complex Case T2 Val=PC817 FP=DIP4S
+nPins=4 nClass=2 countSMD=4 countTHT=0
+nEdgetab=2 nLongEdg=2 grid=2.54
+Double Row, equal count or 2+n, SmalSMDpad x1.22 y1.22; SmalTHTpad R=0.00
+
+Complex Case T3 Val=PC817 FP=DIP4S
+nPins=4 nClass=2 countSMD=4 countTHT=0
+nEdgetab=2 nLongEdg=2 grid=2.54
+Double Row, equal count or 2+n, SmalSMDpad x1.22 y1.22; SmalTHTpad R=0.00
+
+Complex Case T4 Val=HCPL-2631 FP=DIP8
+nPins=8 nClass=1 countSMD=0 countTHT=8
+nEdgetab=2 nLongEdg=4 grid=2.54
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.41
+
+Complex Case T5 Val=HCPL-2631 FP=DIP8
+nPins=8 nClass=1 countSMD=0 countTHT=8
+nEdgetab=2 nLongEdg=4 grid=2.54
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.41
+
+Complex Case T100 Val=B82790-C0113-N201 FP=CMCHOKE1
+nPins=4 nClass=1 countSMD=4 countTHT=0
+nEdgetab=2 nLongEdg=2 grid=2.55
+Double Row, equal count or 2+n, SmalSMDpad x1.10 y1.27; SmalTHTpad R=0.00
+
+Complex Case T200 Val=B82790-C0113-N201 FP=CMCHOKE1
+nPins=4 nClass=1 countSMD=4 countTHT=0
+nEdgetab=2 nLongEdg=2 grid=2.54
+Double Row, equal count or 2+n, SmalSMDpad x1.10 y1.27; SmalTHTpad R=0.00
+
+Complex Case T201 Val=B82790-C0474-N215 FP=CMCHOKE1
+nPins=4 nClass=1 countSMD=4 countTHT=0
+nEdgetab=2 nLongEdg=2 grid=2.54
+Double Row, equal count or 2+n, SmalSMDpad x1.10 y1.27; SmalTHTpad R=0.00
+
+Complex Case T500 Val=HCPL-2631 FP=DIP8
+nPins=8 nClass=1 countSMD=0 countTHT=8
+nEdgetab=2 nLongEdg=4 grid=2.54
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.41
+
+Complex Case T501 Val=HCPL-2631 FP=DIP8
+nPins=8 nClass=1 countSMD=0 countTHT=8
+nEdgetab=2 nLongEdg=4 grid=2.54
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.41
+
+Complex Case T502 Val=HCPL-2631 FP=DIP8
+nPins=8 nClass=1 countSMD=0 countTHT=8
+nEdgetab=2 nLongEdg=4 grid=2.54
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.41
+
+Complex Case TR400 Val=TRANSFORMER01 FP=EFD20
+nPins=8 nClass=1 countSMD=0 countTHT=8
+nEdgetab=2 nLongEdg=4 grid=5.08
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.44
+
+Complex Case U1 Val=XC2S100-5 FP=PQFP-208
+nPins=208 nClass=1 countSMD=208 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->51]->52, n52 @0-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-24-25-26-27-28-29-30-31-32-33-34-35-36-37-38-39-40-41-42-43-44-45-46-47-48-49-50-51
+Added Edgetab: 4294967295->[0->51]->52, n52 @0-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-24-25-26-27-28-29-30-31-32-33-34-35-36-37-38-39-40-41-42-43-44-45-46-47-48-49-50-51
+StoreEdge: e1-input: 51->[52->103]->104, n52 52-53-54-55-56-57-58-59-60-61-62-63-64-65-66-67-68-69-70-71-72-73-74-75-76-77-78-79-80-81-82-83-84-85-86-87-88-89-90-91-92-93-94-95-96-97-98-99-100-101-102-103
+Added Edgetab: 51->[52->103]->104, n52 52-53-54-55-56-57-58-59-60-61-62-63-64-65-66-67-68-69-70-71-72-73-74-75-76-77-78-79-80-81-82-83-84-85-86-87-88-89-90-91-92-93-94-95-96-97-98-99-100-101-102-103
+StoreEdge: e1-input: 103->[104->155]->156, n52 104-105-106-107-108-109-110-111-112-113-114-115-116-117-118-119-120-121-122-123-124-125-126-127-128-129-130-131-132-133-134-135-136-137-138-139-140-141-142-143-144-145-146-147-148-149-150-151-152-153-154-155
+Added Edgetab: 103->[104->155]->156, n52 104-105-106-107-108-109-110-111-112-113-114-115-116-117-118-119-120-121-122-123-124-125-126-127-128-129-130-131-132-133-134-135-136-137-138-139-140-141-142-143-144-145-146-147-148-149-150-151-152-153-154-155
+StoreEdge: e1-input: 155->[156->207]->4294967295, n52 156-157-158-159-160-161-162-163-164-165-166-167-168-169-170-171-172-173-174-175-176-177-178-179-180-181-182-183-184-185-186-187-188-189-190-191-192-193-194-195-196-197-198-199-200-201-202-203-204-205-206-207
+Added Edgetab: 155->[156->207]->4294967295, n52 156-157-158-159-160-161-162-163-164-165-166-167-168-169-170-171-172-173-174-175-176-177-178-179-180-181-182-183-184-185-186-187-188-189-190-191-192-193-194-195-196-197-198-199-200-201-202-203-204-205-206-207
+nEdgetab=4 nLongEdg=52 grid=0.50
+Quad Row: SmalSMDpad x0.30 y1.52; SmalTHTpad R=0.00 GridArray=0
+
+Complex Case U2 Val=PCI9054-AB50PI FP=PQFP-176
+nPins=176 nClass=1 countSMD=176 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->43]->44, n44 @0-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-24-25-26-27-28-29-30-31-32-33-34-35-36-37-38-39-40-41-42-43
+Added Edgetab: 4294967295->[0->43]->44, n44 @0-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-24-25-26-27-28-29-30-31-32-33-34-35-36-37-38-39-40-41-42-43
+StoreEdge: e1-input: 43->[44->87]->88, n44 44-45-46-47-48-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63-64-65-66-67-68-69-70-71-72-73-74-75-76-77-78-79-80-81-82-83-84-85-86-87
+Added Edgetab: 43->[44->87]->88, n44 44-45-46-47-48-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63-64-65-66-67-68-69-70-71-72-73-74-75-76-77-78-79-80-81-82-83-84-85-86-87
+StoreEdge: e1-input: 87->[88->131]->132, n44 88-89-90-91-92-93-94-95-96-97-98-99-100-101-102-103-104-105-106-107-108-109-110-111-112-113-114-115-116-117-118-119-120-121-122-123-124-125-126-127-128-129-130-131
+Added Edgetab: 87->[88->131]->132, n44 88-89-90-91-92-93-94-95-96-97-98-99-100-101-102-103-104-105-106-107-108-109-110-111-112-113-114-115-116-117-118-119-120-121-122-123-124-125-126-127-128-129-130-131
+StoreEdge: e1-input: 131->[132->175]->4294967295, n44 132-133-134-135-136-137-138-139-140-141-142-143-144-145-146-147-148-149-150-151-152-153-154-155-156-157-158-159-160-161-162-163-164-165-166-167-168-169-170-171-172-173-174-175
+Added Edgetab: 131->[132->175]->4294967295, n44 132-133-134-135-136-137-138-139-140-141-142-143-144-145-146-147-148-149-150-151-152-153-154-155-156-157-158-159-160-161-162-163-164-165-166-167-168-169-170-171-172-173-174-175
+nEdgetab=4 nLongEdg=44 grid=0.50
+Quad Row: SmalSMDpad x0.30 y1.52; SmalTHTpad R=0.00 GridArray=0
+
+Complex Case U3 Val=XC9536XL-10-VQ64 FP=VQFP-64
+nPins=64 nClass=1 countSMD=64 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->15]->16, n16 @0-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15
+Added Edgetab: 4294967295->[0->15]->16, n16 @0-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15
+StoreEdge: e1-input: 15->[16->31]->32, n16 16-17-18-19-20-21-22-23-24-25-26-27-28-29-30-31
+Added Edgetab: 15->[16->31]->32, n16 16-17-18-19-20-21-22-23-24-25-26-27-28-29-30-31
+StoreEdge: e1-input: 31->[32->47]->48, n16 32-33-34-35-36-37-38-39-40-41-42-43-44-45-46-47
+Added Edgetab: 31->[32->47]->48, n16 32-33-34-35-36-37-38-39-40-41-42-43-44-45-46-47
+StoreEdge: e1-input: 47->[48->63]->4294967295, n16 48-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63
+Added Edgetab: 47->[48->63]->4294967295, n16 48-49-50-51-52-53-54-55-56-57-58-59-60-61-62-63
+nEdgetab=4 nLongEdg=16 grid=0.50
+Quad Row: SmalSMDpad x0.30 y1.52; SmalTHTpad R=0.00 GridArray=0
+
+Complex Case U4 Val=uPD434008ALLE-A15 FP=SOJ-36
+nPins=36 nClass=1 countSMD=36 countTHT=0
+nEdgetab=2 nLongEdg=18 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y2.03; SmalTHTpad R=0.00
+
+Complex Case U5 Val=uPD434008ALLE-A15 FP=SOJ-36
+nPins=36 nClass=1 countSMD=36 countTHT=0
+nEdgetab=2 nLongEdg=18 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y2.03; SmalTHTpad R=0.00
+
+Complex Case U6 Val=ZR78L05G FP=SOT-223
+nPins=4 nClass=2 countSMD=4 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->2]->3, n3 @0-1-2
+Added Edgetab: 4294967295->[0->2]->3, n3 @0-1-2
+nEdgetab=1 nLongEdg=3 grid=2.28
+Single Row THT, all the same pads PLUS thermal pad
+
+Complex Case U7 Val=TCXO 32MHz FP=DIP14/OSC
+nPins=4 nClass=1 countSMD=0 countTHT=4
+nEdgetab=2 nLongEdg=2 grid=15.24
+Double Row, equal count or 2+n, SmalSMDpad x0.00 y0.00; SmalTHTpad R=0.32
+
+Complex Case U8 Val=CD74ACT04 FP=SO-14
+nPins=14 nClass=1 countSMD=14 countTHT=0
+nEdgetab=2 nLongEdg=7 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U9 Val=ULN2003 FP=SO-16
+nPins=16 nClass=1 countSMD=16 countTHT=0
+nEdgetab=2 nLongEdg=8 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U10 Val=ULN2003 FP=SO-16
+nPins=16 nClass=1 countSMD=16 countTHT=0
+nEdgetab=2 nLongEdg=8 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U21 Val=LM239D FP=SO-14
+nPins=14 nClass=1 countSMD=14 countTHT=0
+nEdgetab=2 nLongEdg=7 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U100 Val=ZR78L05G FP=SOT-223
+nPins=4 nClass=2 countSMD=4 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->2]->3, n3 @0-1-2
+Added Edgetab: 4294967295->[0->2]->3, n3 @0-1-2
+nEdgetab=1 nLongEdg=3 grid=2.28
+Single Row THT, all the same pads PLUS thermal pad
+
+Complex Case U101 Val=AD9631 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U102 Val=OP279GS FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U103 Val=AD9632 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U104 Val=AD9631 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U105 Val=AD9631 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U106 Val=AD9632 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U107 Val=AD9042AST FP=TQFP44
+nPins=44 nClass=1 countSMD=44 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->10]->11, n11 @0-1-2-3-4-5-6-7-8-9-10
+Added Edgetab: 4294967295->[0->10]->11, n11 @0-1-2-3-4-5-6-7-8-9-10
+StoreEdge: e1-input: 10->[11->21]->22, n11 11-12-13-14-15-16-17-18-19-20-21
+Added Edgetab: 10->[11->21]->22, n11 11-12-13-14-15-16-17-18-19-20-21
+StoreEdge: e1-input: 21->[22->32]->33, n11 22-23-24-25-26-27-28-29-30-31-32
+Added Edgetab: 21->[22->32]->33, n11 22-23-24-25-26-27-28-29-30-31-32
+StoreEdge: e1-input: 32->[33->43]->4294967295, n11 33-34-35-36-37-38-39-40-41-42-43
+Added Edgetab: 32->[33->43]->4294967295, n11 33-34-35-36-37-38-39-40-41-42-43
+nEdgetab=4 nLongEdg=11 grid=0.80
+Quad Row: SmalSMDpad x0.51 y1.52; SmalTHTpad R=0.00 GridArray=0
+
+Complex Case U109 Val=AD746 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U110 Val=AD823 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U111 Val=AD1877 FP=SOL28/400
+nPins=28 nClass=1 countSMD=28 countTHT=0
+nEdgetab=2 nLongEdg=14 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.64 y2.54; SmalTHTpad R=0.00
+
+Complex Case U200 Val=ZR78L05G FP=SOT-223
+nPins=4 nClass=2 countSMD=4 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->2]->3, n3 @0-1-2
+Added Edgetab: 4294967295->[0->2]->3, n3 @0-1-2
+nEdgetab=1 nLongEdg=3 grid=2.28
+Single Row THT, all the same pads PLUS thermal pad
+
+Complex Case U201 Val=ZR78L05G FP=SOT-223
+nPins=4 nClass=2 countSMD=4 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->2]->3, n3 @0-1-2
+Added Edgetab: 4294967295->[0->2]->3, n3 @0-1-2
+nEdgetab=1 nLongEdg=3 grid=2.28
+Single Row THT, all the same pads PLUS thermal pad
+
+Complex Case U202 Val=CD74ACT574 FP=TSSOP20
+nPins=20 nClass=1 countSMD=20 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->9]->10, n10 @0-1-2-3-4-5-6-7-8-9
+Added Edgetab: 4294967295->[0->9]->10, n10 @0-1-2-3-4-5-6-7-8-9
+StoreEdge: e1-input: 9->[10->19]->4294967295, n10 10-11-12-13-14-15-16-17-18-19
+Added Edgetab: 9->[10->19]->4294967295, n10 10-11-12-13-14-15-16-17-18-19
+nEdgetab=2 nLongEdg=10 grid=0.65
+Double Row, equal count or 2+n, SmalSMDpad x0.42 y1.78; SmalTHTpad R=0.00
+
+Complex Case U203 Val=CD74ACT574 FP=TSSOP20
+nPins=20 nClass=1 countSMD=20 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->9]->10, n10 @0-1-2-3-4-5-6-7-8-9
+Added Edgetab: 4294967295->[0->9]->10, n10 @0-1-2-3-4-5-6-7-8-9
+StoreEdge: e1-input: 9->[10->19]->4294967295, n10 10-11-12-13-14-15-16-17-18-19
+Added Edgetab: 9->[10->19]->4294967295, n10 10-11-12-13-14-15-16-17-18-19
+nEdgetab=2 nLongEdg=10 grid=0.65
+Double Row, equal count or 2+n, SmalSMDpad x0.42 y1.78; SmalTHTpad R=0.00
+
+Complex Case U204 Val=AD9774AS FP=MQFP44
+nPins=44 nClass=1 countSMD=44 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->10]->11, n11 @0-1-2-3-4-5-6-7-8-9-10
+Added Edgetab: 4294967295->[0->10]->11, n11 @0-1-2-3-4-5-6-7-8-9-10
+StoreEdge: e1-input: 10->[11->21]->22, n11 11-12-13-14-15-16-17-18-19-20-21
+Added Edgetab: 10->[11->21]->22, n11 11-12-13-14-15-16-17-18-19-20-21
+StoreEdge: e1-input: 21->[22->32]->33, n11 22-23-24-25-26-27-28-29-30-31-32
+Added Edgetab: 21->[22->32]->33, n11 22-23-24-25-26-27-28-29-30-31-32
+StoreEdge: e1-input: 32->[33->43]->4294967295, n11 33-34-35-36-37-38-39-40-41-42-43
+Added Edgetab: 32->[33->43]->4294967295, n11 33-34-35-36-37-38-39-40-41-42-43
+nEdgetab=4 nLongEdg=11 grid=0.80
+Quad Row: SmalSMDpad x0.51 y1.78; SmalTHTpad R=0.00 GridArray=0
+
+Complex Case U205 Val=AD9632 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U206 Val=AD9632 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U207 Val=AD826 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U208 Val=AD828 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U209 Val=AD828 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U210 Val=AD823 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U211 Val=DG419DY FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U212 Val=AD1858 FP=SSOP20
+nPins=20 nClass=1 countSMD=20 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->9]->10, n10 @0-1-2-3-4-5-6-7-8-9
+Added Edgetab: 4294967295->[0->9]->10, n10 @0-1-2-3-4-5-6-7-8-9
+StoreEdge: e1-input: 9->[10->19]->4294967295, n10 10-11-12-13-14-15-16-17-18-19
+Added Edgetab: 9->[10->19]->4294967295, n10 10-11-12-13-14-15-16-17-18-19
+nEdgetab=2 nLongEdg=10 grid=0.65
+Double Row, equal count or 2+n, SmalSMDpad x0.42 y1.78; SmalTHTpad R=0.00
+
+Complex Case U213 Val=AD823 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U214 Val=AD825 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U215 Val=AD825 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U216 Val=AD825 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U217 Val=DG419DY FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U300 Val=93LC56BSN FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U301 Val=MC74HC174 FP=SO-16
+nPins=16 nClass=1 countSMD=16 countTHT=0
+nEdgetab=2 nLongEdg=8 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U302 Val=MC74HC174 FP=SO-16
+nPins=16 nClass=1 countSMD=16 countTHT=0
+nEdgetab=2 nLongEdg=8 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U303 Val=MC74HC174 FP=SO-16
+nPins=16 nClass=1 countSMD=16 countTHT=0
+nEdgetab=2 nLongEdg=8 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U400 Val=TD310D FP=SO-16
+nPins=16 nClass=1 countSMD=16 countTHT=0
+nEdgetab=2 nLongEdg=8 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y2.03; SmalTHTpad R=0.00
+
+Complex Case U401 Val=ZR78L05G FP=SOT-223
+nPins=4 nClass=2 countSMD=4 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->2]->3, n3 @0-1-2
+Added Edgetab: 4294967295->[0->2]->3, n3 @0-1-2
+nEdgetab=1 nLongEdg=3 grid=2.28
+Single Row THT, all the same pads PLUS thermal pad
+
+Complex Case U402 Val=ZR78L05G FP=SOT-223
+nPins=4 nClass=2 countSMD=4 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->2]->3, n3 @0-1-2
+Added Edgetab: 4294967295->[0->2]->3, n3 @0-1-2
+nEdgetab=1 nLongEdg=3 grid=2.28
+Single Row THT, all the same pads PLUS thermal pad
+
+Complex Case U403 Val=LM79L05ACM FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U404 Val=ZR78L05G FP=SOT-223
+nPins=4 nClass=2 countSMD=4 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->2]->3, n3 @0-1-2
+Added Edgetab: 4294967295->[0->2]->3, n3 @0-1-2
+nEdgetab=1 nLongEdg=3 grid=2.28
+Single Row THT, all the same pads PLUS thermal pad
+
+Complex Case U405 Val=LM79L05ACM FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+side0  U406 =  0.28
+side0  U407 =  0.28
+
+Complex Case U408 Val=AD823 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U500 Val=DAC8512FS FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U502 Val=DAC8512FS FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U504 Val=DAC8512FS FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U505 Val=DAC8512FS FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U506 Val=AD7715 FP=SOIC-16/300
+nPins=16 nClass=2 countSMD=16 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->7]->8, n8 @0-1-2-3-4-5-6-7
+Added Edgetab: 4294967295->[0->7]->8, n8 @0-1-2-3-4-5-6-7
+StoreEdge: e1-input: 7->[8->15]->4294967295, n8 8-9-10-11-12-13-14-15
+Added Edgetab: 7->[8->15]->4294967295, n8 8-9-10-11-12-13-14-15
+nEdgetab=2 nLongEdg=8 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.93; SmalTHTpad R=0.00
+
+Complex Case U507 Val=AD7715 FP=SOIC-16/300
+nPins=16 nClass=2 countSMD=16 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->7]->8, n8 @0-1-2-3-4-5-6-7
+Added Edgetab: 4294967295->[0->7]->8, n8 @0-1-2-3-4-5-6-7
+StoreEdge: e1-input: 7->[8->15]->4294967295, n8 8-9-10-11-12-13-14-15
+Added Edgetab: 7->[8->15]->4294967295, n8 8-9-10-11-12-13-14-15
+nEdgetab=2 nLongEdg=8 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.93; SmalTHTpad R=0.00
+
+Complex Case U508 Val=ADG719BRM FP=RM-8
+nPins=8 nClass=2 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=0.65
+Double Row, equal count or 2+n, SmalSMDpad x0.43 y1.09; SmalTHTpad R=0.00
+
+Complex Case U509 Val=AD7715 FP=SOIC-16/300
+nPins=16 nClass=2 countSMD=16 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->7]->8, n8 @0-1-2-3-4-5-6-7
+Added Edgetab: 4294967295->[0->7]->8, n8 @0-1-2-3-4-5-6-7
+StoreEdge: e1-input: 7->[8->15]->4294967295, n8 8-9-10-11-12-13-14-15
+Added Edgetab: 7->[8->15]->4294967295, n8 8-9-10-11-12-13-14-15
+nEdgetab=2 nLongEdg=8 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.93; SmalTHTpad R=0.00
+
+Complex Case U510 Val=ZR78L05G FP=SOT-223
+nPins=4 nClass=2 countSMD=4 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->2]->3, n3 @0-1-2
+Added Edgetab: 4294967295->[0->2]->3, n3 @0-1-2
+nEdgetab=1 nLongEdg=3 grid=2.28
+Single Row THT, all the same pads PLUS thermal pad
+
+Complex Case U511 Val=REF192 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U512 Val=REF192 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U513 Val=ZR78L05G FP=SOT-223
+nPins=4 nClass=2 countSMD=4 countTHT=0
+StoreEdge: e1-input: 4294967295->[0->2]->3, n3 @0-1-2
+Added Edgetab: 4294967295->[0->2]->3, n3 @0-1-2
+nEdgetab=1 nLongEdg=3 grid=2.28
+Single Row THT, all the same pads PLUS thermal pad
+
+Complex Case U514 Val=REF192 FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U600 Val=OP279GS FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U601 Val=ADG719BRM FP=RM-8
+nPins=8 nClass=2 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=0.65
+Double Row, equal count or 2+n, SmalSMDpad x0.43 y1.09; SmalTHTpad R=0.00
+
+Complex Case U602 Val=LM79L05ACM FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U604 Val=OP279GS FP=SO-8
+nPins=8 nClass=1 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=1.27
+Double Row, equal count or 2+n, SmalSMDpad x0.61 y1.42; SmalTHTpad R=0.00
+
+Complex Case U605 Val=ADG719BRM FP=RM-8
+nPins=8 nClass=2 countSMD=8 countTHT=0
+nEdgetab=2 nLongEdg=4 grid=0.65
+Double Row, equal count or 2+n, SmalSMDpad x0.43 y1.09; SmalTHTpad R=0.00
+Cursr/Drills/Cuts/Edges Buffer:
+    220789 Vertexes     308580 Triangles - 7MB 2MB
+Tracks Buffer:
+         0 Vertexes          0 Triangles - 0MB 0MB
+Total (netto) 9MB
+SetEnabledComponentMeshList: g_EnableComp1  pComponentInstTab1 IPC356Rec.Data.nComponent816
+DecomposeToIslands    1.938GT  FlattenIslands   1.582GT  pcicard.GTO
+DecomposeToIslands    4.151GT  FlattenIslands   0.000GT  pcicard.GP1
+DecomposeToIslands    5.374GT  FlattenIslands   0.350GT  pcicard.GTL
+DecomposeToIslands    2.912GT  FlattenIslands   0.115GT  pcicard.GBL
+DecomposeToIslands    4.835GT  FlattenIslands   0.000GT  pcicard.GP2
+DecomposeToIslands    2.592GT  FlattenIslands   0.000GT  (null)
+DecomposeToIslands    2.157GT  FlattenIslands   1.620GT  pcicard.GBO
+ipcpinpar    12
+ballpar     12
+cubeleadpar 24
+thtpinpar   20
+dippinpar   68
+zpinpar     72
+zleadpar    84
+jleadpar    64
+baseholepar 56
+ypinpar     68
+ffcconpar   88
+b2cabconpar 76
+MessageBoxPopup Auto Load New 00000085
+This command clears all loaded data
+Proceed?
+ipcpinpar    12
+ballpar     12
+cubeleadpar 24
+thtpinpar   20
+dippinpar   68
+zpinpar     72
+zleadpar    84
+jleadpar    64
+baseholepar 56
+ypinpar     68
+ffcconpar   88
+b2cabconpar 76
+Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\NCDrill filename: D:\root\GoogleDrive\Loading Files 0.179GT
+Drill to Pad Fit Ratio = 1.3 @ scalek=8
+FitDrills 0.003GT
+Delete Previous 0.000GT
+FitDrillsFine 0.013GT
+Drawing Board Outline 0.001GT
+processors: 0001 share cache type2 L1  16384bytes
+processors: 0003 share Core (Flags 1)
+processors: 0002 share cache type2 L1  16384bytes
+processors: 0003 share cache type1 L1  65536bytes
+processors: 0003 share cache type0 L2  2097152bytes
+processors: 0004 share cache type2 L1  16384bytes
+processors: 000C share Core (Flags 1)
+processors: 0008 share cache type2 L1  16384bytes
+processors: 000C share cache type1 L1  65536bytes
+processors: 000C share cache type0 L2  2097152bytes
+processors: 0010 share cache type2 L1  16384bytes
+processors: 0030 share Core (Flags 1)
+processors: 0020 share cache type2 L1  16384bytes
+processors: 0030 share cache type1 L1  65536bytes
+processors: 0030 share cache type0 L2  2097152bytes
+processors: 0040 share cache type2 L1  16384bytes
+processors: 00C0 share Core (Flags 1)
+processors: 0080 share cache type2 L1  16384bytes
+processors: 00C0 share cache type1 L1  65536bytes
+processors: 00C0 share cache type0 L2  2097152bytes
+processors: 00FF share cache type0 L3  8388608bytes
+processors: 00FF share NUMA node 0
+DecomposeToIslands    0.000GT  FlattenIslands   0.002GT  toppaste.gbr
+DecomposeToIslands    0.016GT  FlattenIslands   0.000GT  topmask.gbr
+Cursr/Drills/Cuts/Edges Buffer:
+     13842 Vertexes      15420 Triangles - 0MB 0MB
+Tracks Buffer:
+         0 Vertexes          0 Triangles - 0MB 0MB
+Total (netto) 1MB
+SetEnabledComponentMeshList: g_EnableComp1  pComponentInstTab0 IPC356Rec.Data.nComponent0
+DecomposeToIslands    0.037GT  FlattenIslands   0.000GT  bottommask.gbr
+DecomposeToIslands    0.005GT  FlattenIslands   0.072GT  topsilk.gbr
+DecomposeToIslands    0.017GT  FlattenIslands   0.029GT  bottompaste.gbr
+DecomposeToIslands    0.010GT  FlattenIslands   0.000GT  (null)
+DecomposeToIslands    0.052GT  FlattenIslands   2.915GT  bottomsilk.gbr
+DecomposeToIslands    8.006GT  FlattenIslands   0.116GT  bottom.gbr
+DecomposeToIslands   12.479GT  FlattenIslands   0.027GT  top.gbr
+CreateCopperNetlist 0.042GT
+CreateLayerTrackMesh:
+  ConstructionPaint    0.006GF    12isl  toppaste.gbr
+  ConstructionPaint    0.070GF    57isl  topsilk.gbr
+  ConstructionPaint    0.274GF     1isl  topmask.gbr
+  ConstructionPaint    0.415GF    94isl  bottom.gbr
+  ConstructionPaint    0.375GF     1isl  bottommask.gbr
+  ConstructionPaint    0.181GF   144isl  bottomsilk.gbr
+  ConstructionPaint    0.050GF   100isl  bottompaste.gbr
+  ConstructionPaint    0.053GF     1isl  (null)
+  ConstructionPaint    0.513GF    64isl  top.gbr
+{}ConstructFlatFromTree 38.757GT
+{}ConstructionCalc      0.056GT
+{}CreateInner           1.278GF
+{}ArcToFan + Resolve    0.026GF
+{}Decompose             0.449GF
+{}malloc                0.000GT
+{}FindIntersections     76.415GT
+{}DeleteBuriedNodes     19.214GT
+{}Solve                 1.406GT
+loop_queries54735  loop_alreadyansw232749  loop_unsuccqueries0
+crxd_queries84563  crxd_alreadyansw194743  crxd_unsuccqueries19364
+Cursr/Drills/Cuts/Edges Buffer:
+     56052 Vertexes      54624 Triangles - 2MB 0MB
+Tracks Buffer:
+     76721 Vertexes      75848 Triangles - 1MB 0MB
+Total (netto) 3MB
+SetEnabledComponentMeshList: g_EnableComp1  pComponentInstTab0 IPC356Rec.Data.nComponent0
+ipcpinpar    12
+ballpar     12
+cubeleadpar 24
+thtpinpar   20
+dippinpar   68
+zpinpar     72
+zleadpar    84
+jleadpar    64
+baseholepar 56
+ypinpar     68
+ffcconpar   88
+b2cabconpar 76
+Cursr/Drills/Cuts/Edges Buffer:
+     56052 Vertexes      54624 Triangles - 2MB 0MB
+Tracks Buffer:
+     76721 Vertexes      75848 Triangles - 1MB 0MB
+Total (netto) 3MB
+SetEnabledComponentMeshList: g_EnableComp1  pComponentInstTab0 IPC356Rec.Data.nComponent0
+MessageBoxPopup Save Screenshot - file WRITE ACCESS DENIED 00000000
+C:\Screenshot_.png
+MessageBoxPopup Saving Color Preset ERROR 00000000
+Factory presets cannot be overwritten.
+g_pCrossSectVB_VerSize 256
+MessageBoxPopup Auto Load New 00000085
+This command clears all loaded data
+Proceed?
+MessageBoxPopup Auto Load New 00000085
+This command clears all loaded data
+Proceed?
+MessageBoxPopup Auto Load New 00000085
+This command clears all loaded data
+Proceed?
+Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\Gerber filename: D:\root\GoogleDrive\NCDrill filename: D:\root\GoogleDrive\Loading Files 0.050GT
+Drill to Pad Fit Ratio = 1.3 @ scalek=8
+FitDrills 0.003GT
+Delete Previous 0.000GT
+FitDrillsFine 0.012GT
+Drawing Board Outline 0.001GT
+processors: 0001 share cache type2 L1  16384bytes
+processors: 0003 share Core (Flags 1)
+processors: 0002 share cache type2 L1  16384bytes
+processors: 0003 share cache type1 L1  65536bytes
+processors: 0003 share cache type0 L2  2097152bytes
+processors: 0004 share cache type2 L1  16384bytes
+processors: 000C share Core (Flags 1)
+processors: 0008 share cache type2 L1  16384bytes
+processors: 000C share cache type1 L1  65536bytes
+processors: 000C share cache type0 L2  2097152bytes
+processors: 0010 share cache type2 L1  16384bytes
+processors: 0030 share Core (Flags 1)
+processors: 0020 share cache type2 L1  16384bytes
+processors: 0030 share cache type1 L1  65536bytes
+processors: 0030 share cache type0 L2  2097152bytes
+processors: 0040 share cache type2 L1  16384bytes
+processors: 00C0 share Core (Flags 1)
+processors: 0080 share cache type2 L1  16384bytes
+processors: 00C0 share cache type1 L1  65536bytes
+processors: 00C0 share cache type0 L2  2097152bytes
+processors: 00FF share cache type0 L3  8388608bytes
+processors: 00FF share NUMA node 0
+DecomposeToIslands    0.000GT  FlattenIslands   0.003GT  toppaste.gbr
+Cursr/Drills/Cuts/Edges Buffer:
+     13842 Vertexes      15420 Triangles - 0MB 0MB
+Tracks Buffer:
+     76721 Vertexes      75848 Triangles - 1MB 0MB
+Total (netto) 2MB
+SetEnabledComponentMeshList: g_EnableComp1  pComponentInstTab0 IPC356Rec.Data.nComponent0
+DecomposeToIslands    0.013GT  FlattenIslands   0.000GT  topmask.gbr
+DecomposeToIslands    0.025GT  FlattenIslands   0.000GT  bottommask.gbr
+DecomposeToIslands    0.006GT  FlattenIslands   0.067GT  topsilk.gbr
+DecomposeToIslands    0.015GT  FlattenIslands   0.021GT  bottompaste.gbr
+DecomposeToIslands    0.009GT  FlattenIslands   0.000GT  (null)
+DecomposeToIslands    0.043GT  FlattenIslands   2.527GT  bottomsilk.gbr
+DecomposeToIslands    7.617GT  FlattenIslands   0.101GT  bottom.gbr
+DecomposeToIslands   12.379GT  FlattenIslands   0.032GT  top.gbr
+CreateCopperNetlist 0.033GT
+CreateLayerTrackMesh:
+  ConstructionPaint    0.007GF    12isl  toppaste.gbr
+  ConstructionPaint    0.089GF    57isl  topsilk.gbr
+  ConstructionPaint    0.282GF     1isl  topmask.gbr
+  ConstructionPaint    0.184GF   144isl  bottomsilk.gbr
+  ConstructionPaint    0.383GF     1isl  bottommask.gbr
+  ConstructionPaint    0.494GF    94isl  bottom.gbr
+  ConstructionPaint    0.505GF    64isl  top.gbr
+  ConstructionPaint    0.048GF   100isl  bottompaste.gbr
+  ConstructionPaint    0.052GF     1isl  (null)
+{}ConstructFlatFromTree 60.871GT
+{}ConstructionCalc      0.116GT
+{}CreateInner           2.590GF
+{}ArcToFan + Resolve    0.056GF
+{}Decompose             0.912GF
+{}malloc                0.000GT
+{}FindIntersections     92.209GT
+{}DeleteBuriedNodes     25.464GT
+{}Solve                 1.918GT
+loop_queries56072  loop_alreadyansw249524  loop_unsuccqueries0
+crxd_queries109505  crxd_alreadyansw282742  crxd_unsuccqueries24564
+Cursr/Drills/Cuts/Edges Buffer:
+     56052 Vertexes      54624 Triangles - 2MB 0MB
+Tracks Buffer:
+     76721 Vertexes      75848 Triangles - 1MB 0MB
+Total (netto) 3MB
+SetEnabledComponentMeshList: g_EnableComp1  pComponentInstTab0 IPC356Rec.Data.nComponent0
+ipcpinpar    12
+ballpar     12
+cubeleadpar 24
+thtpinpar   20
+dippinpar   68
+zpinpar     72
+zleadpar    84
+jleadpar    64
+baseholepar 56
+ypinpar     68
+ffcconpar   88
+b2cabconpar 76
+MessageBoxPopup Saving Color Preset ERROR 00000000
+Factory presets cannot be overwritten.
+MessageBoxPopup Exit Program 00000092
+There are unsaved changes in the stackup and in the Rendered Board
+Quit anyway?

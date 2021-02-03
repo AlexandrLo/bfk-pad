@@ -1,0 +1,37 @@
+CAM Outputs Generation Report
+for 'CAM Outputs for pcicard.cam'
+at 11:26:10 on 29-Sep-2013
+
+
+'Pick Place Output 1'
+'Pick Place for pcicard.txt' generated
+'Pick Place for pcicard.csv' generated
+'Pick Place for pcicard.pik' generated
+
+'Test Points Output 1'
+'Testpoint Report for pcicard.txt' generated
+'Testpoint Report for pcicard.csv' generated
+'Testpoint Report for pcicard.tsp' generated
+'Testpoint Report for pcicard.ipc' generated
+
+'NC Drill Output 1'
+'pcicard.TXT' generated
+'pcicard.DRL' generated
+'pcicard.DRR' generated
+
+'Gerber Output 1'
+'pcicard.GTL' generated
+'pcicard.GBL' generated
+'pcicard.GTO' generated
+'pcicard.GBO' generated
+'pcicard.GTP' generated
+'pcicard.GBP' generated
+'pcicard.GTS' generated
+'pcicard.GBS' generated
+'pcicard.GP1' generated
+'pcicard.GP2' generated
+'pcicard.GKO' generated
+'pcicard.REP' generated
+
+
+Total number of generated files = 22
