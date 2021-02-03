@@ -1,8 +1,8 @@
+<img src="https://github.com/AlexandrLo/bfk-pad/blob/master/images/logo.svg?raw=true" width="150" alt="Logo" align="right" />
+
 # BFK Pad
 
-<img src="https://github.com/AlexandrLo/bfk-pad/blob/master/images/1.png?raw=true" width="400" align="right" />
-
-A short description of the keyboard/project
+BFK Pad is mechanical 13-key macropad with Big Functional Knob.
 
 * Keyboard Maintainer: [AlexandrLo](https://github.com/AlexandrLo)
 * Hardware Supported: BFK Pad V1
